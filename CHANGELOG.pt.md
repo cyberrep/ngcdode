@@ -2,16 +2,16 @@
 
 [← Voltar ao início](README.pt.md) · [English](CHANGELOG.md) · **Português** · [Español](CHANGELOG.es.md)
 
-Tudo o que mudou no **menu** (`BOOT.ISO`), no **firmware NGCD** (loader + MCU) e nas **ferramentas** (página web, `generate_usb.py` e `converter_tudo.py`), da versão mais nova para a mais antiga.
+Tudo o que mudou no **menu** (`BOOT.ISO`), no **firmware NGCD** (loader + MCU) e nas **ferramentas** (página web e `generate_usb.py`), da versão mais nova para a mais antiga.
 
-- [Menu — 1.0](#menu--10)
-- [Menu — antes da 1.0 (versões 0.x)](#menu--antes-da-10-versões-0x)
-- [Firmware NGCD](#firmware-ngcd)
-- [Ferramentas (página, generate_usb.py, converter_tudo.py)](#ferramentas-página-generate_usbpy-converter_tudopy)
+- [Menu — 1.0](#-menu--10)
+- [Menu — antes da 1.0 (versões 0.x)](#-menu--antes-da-10-versões-0x)
+- [Firmware NGCD](#-firmware-ngcd)
+- [Ferramentas (página, generate_usb.py)](#-ferramentas-página-generate_usbpy)
 
 ---
 
-## Menu — 1.0
+## 🚀 Menu — 1.0
 
 Primeira versão pública. Reúne tudo o que foi feito nas versões de desenvolvimento (0.x), descritas abaixo, e acrescenta:
 
@@ -27,11 +27,11 @@ O que a 1.0 tem, em resumo: 6 modos de exibição (Lista, Capas, Carrossel, Carr
 
 ---
 
-## Menu — antes da 1.0 (versões 0.x)
+## 🧪 Menu — antes da 1.0 (versões 0.x)
 
 As versões de desenvolvimento, da mais nova para a mais antiga.
 
-### 0.70 — Capas em pacote e Carrossel FX deslizando
+### 📦 0.70 — Capas em pacote e Carrossel FX deslizando
 
 **Capas e telas em pacote**
 - 📦 **Todas as capas num arquivo só** (`.media/covers/cover.pak`, com os 5 tamanhos de cada jogo) e as telas em outro (`.media/screenshots/screenshots.pak`). O menu abre o pacote uma vez e vai direto à imagem, em vez de procurar cada arquivo numa pasta com centenas deles.
@@ -44,17 +44,17 @@ As versões de desenvolvimento, da mais nova para a mais antiga.
 - A capa padrão (jogo sem capa) também fica virada para o centro, com reflexo.
 - Corrigidos: uma faixa de outra capa embaixo do reflexo (só no console) e a barra do topo e o rodapé cortados do lado direito.
 
-### 0.63 — Correções do teste no console
+### 📦 0.63 — Correções do teste no console
 - Carrossel FX não trava mais ao entrar sem as capas de 96.
 - Vitrine e Faixa sem os pontinhos na descrição; Faixa sem meia capa por cima da capa padrão.
 - Botões do rodapé mais juntos, para caber na TV.
 
-### 0.62 — Carrossel FX, Vitrine e Faixa
+### 📦 0.62 — Carrossel FX, Vitrine e Faixa
 - 🖼️ **Três modos de exibição novos**: **Carrossel FX** (capas dos lados viradas para o centro, em trapézio, com reflexo no chão), **Vitrine** (capa grande, ficha e a descrição inteira com rolagem) e **Faixa** (tela e dados em cima, fileira de capas embaixo).
 - **Carrossel com as capas de dentro maiores** (96, entre a de fora e a do centro), numa capa nova de 16 paletas.
 - Rodapé de Jogos com **C FAV**, **D INFO** e o botão **SELECT FILTRO**; SELECT ou START abrem o filtro.
 
-### 0.59 a 0.61 — Filtro, extração da BIOS e menu em módulos
+### 📦 0.59 a 0.61 — Filtro, extração da BIOS e menu em módulos
 - 🔎 **Filtro** por gênero e país, com caixinhas `[ ]`/`[X]`, quantos jogos passam e os botões **A MARCAR**, **B OK**, **C LIMPAR**.
 - 💾 **Extrair ROM**: o console copia a própria BIOS (512 KB) para `.roms/` (ex. `frontload_japao.bin`), sem duplicar.
 - 🧩 **Menu em módulos**: Opções, saves, drive de CD, filtro e os modos novos só são lidos quando abrem. A memória fixa do menu ganhou ~68 KB livres.
@@ -63,7 +63,7 @@ As versões de desenvolvimento, da mais nova para a mais antiga.
 - Medidor de tempo do CD na faixa de informações da lista.
 - A pasta dos firmwares instalados passou a ser `.wad`.
 
-### 0.52 a 0.58 — Cartão no padrão ODE
+### 📦 0.52 a 0.58 — Cartão no padrão ODE
 - 🗂️ **Tudo no padrão ODE**: o menu em `.boot`, as mídias em `.media`, as opções, favoritos, recentes, estatísticas e a lista de jogos em `.config` (`ngcd*.ode`, texto, uma opção por linha), os saves em `.saves`.
 - **Mídias fora do `BOOT.ISO`**: o menu ficou pequeno e as capas são lidas direto do cartão, pelo nome do jogo.
 - **Vídeo da lista sem travar**: lido aos poucos, começa assim que o primeiro quadro chega.
@@ -73,7 +73,7 @@ As versões de desenvolvimento, da mais nova para a mais antiga.
 - Carrossel com a moldura por fora da capa e tamanhos em degraus (48, 64, 128).
 - O firmware já instalado não é regravado a cada vez que liga.
 
-### 0.31 a 0.45 — Caixa do jogo nova e Carrossel
+### 📦 0.31 a 0.45 — Caixa do jogo nova e Carrossel
 - 🎠 **Carrossel**: capa grande de 128 × 128 no centro e duas de cada lado.
 - **Info dos jogos**: sobre a mídia ou abaixo dela; tela e vídeo em 4:3.
 - **Fim dos riscos ao carregar** capa, tela e vídeo: as cores só são gravadas enquanto a TV não desenha.
@@ -82,7 +82,7 @@ As versões de desenvolvimento, da mais nova para a mais antiga.
 - Vezes jogado na barra de baixo.
 - **Espaço do cartão SD** com o MCU NGCD 00.12.
 
-### 0.21 a 0.30 — Caixa CD, saves e leitura silenciosa
+### 📦 0.21 a 0.30 — Caixa CD, saves e leitura silenciosa
 - 💿 **Caixa CD** na tela principal, com o disco girando: inicia o CD que está no leitor.
 - 💾 **Gerenciador de armazenamento**: console e cartão SD, copiar, restaurar e apagar saves; backup da memória inteira.
 - 🤫 **Leitura silenciosa**: o cartão só é lido enquanto a TV não desenha (sem chuvisco na imagem).
@@ -90,7 +90,7 @@ As versões de desenvolvimento, da mais nova para a mais antiga.
 - **Nome oficial dos jogos** (Título ou Pasta).
 - Faixas translúcidas na capa (transparência de 0 a 100%), capinha do último jogo, Sobre e Agradecimentos.
 
-### 0.1 a 0.20 — A base
+### 📦 0.1 a 0.20 — A base
 - **0.20** — Janela padrão para perguntas, andamento e resultado; drive de CD, modo desenvolvedor, Debug DIPs e medidor de tempo.
 - **0.17** — 🎵 10 músicas de fundo, com volume e Aleatória; vídeo começando mais rápido.
 - **0.15 e 0.16** — Modo Capas (grade); Opções em sanfona; Letras para o menu todo.
@@ -101,7 +101,7 @@ As versões de desenvolvimento, da mais nova para a mais antiga.
 
 ---
 
-## Firmware NGCD
+## 🧩 Firmware NGCD
 
 O firmware vem num `.WAD` com três partes: o **loader** (o remendo da BIOS do console), o **MCU** (o programa do microcontrolador do SD Loader) e o **CPLD**. Veja a explicação no [README](README.pt.md#-o-que-tem-no-firmware-wad-loader-mcu-e-cpld).
 
@@ -123,20 +123,18 @@ O firmware vem num `.WAD` com três partes: o **loader** (o remendo da BIOS do c
 
 ---
 
-## Ferramentas (página, generate_usb.py, converter_tudo.py)
+## 🛠️ Ferramentas (página, generate_usb.py)
 
-### Novembro de 2026 (menu 1.0)
+### 📅 Novembro de 2026 (menu 1.0)
 - **Página**: o cabeçalho mostra a versão do menu (1.0) e do firmware.
 - **Página e `generate_usb.py`**: **Formato das capas e telas: PAK ou Individual**, com a conversão do que já está no cartão (`--individual` no gerador).
-- **`converter_tudo.py`**: gera todos os tamanhos de capa (128, 96, 96 de 16 paletas, 64 e a capinha 24); o gerador usa as prontas.
 
-### Novembro de 2026 (menus 0.52 a 0.63)
+### 📅 Novembro de 2026 (menus 0.52 a 0.63)
 - **`generate_usb.py` refeito no esquema da página** (`.boot`, `.media`, `.config`) e agora **acerta os discos** para o SD Loader: `.chd` (chdman), `.nrg`, `.img` + `.ccd`, `.iso`/`.img`/`.bin` sem `.cue`, `.iso` + mp3/ogg/flac (as faixas viram `.wav`), `.zip`/`.7z`, jogo solto na raiz e `.cue` com TAB.
 - A página **só copia** o menu e o firmware da pasta do kit, e só quando mudaram; gravar de novo não regrava o que já está no cartão.
 - A página copia o menu para `.boot` e avisa quando o console ainda está com o loader antigo.
 - Capas de 96 de 16 paletas para o Carrossel, criadas também para as capas que já estão no cartão.
 
-### Novembro de 2026 (menus 0.6 a 0.30)
+### 📅 Novembro de 2026 (menus 0.6 a 0.30)
 - **Página web** que grava o cartão inteiro: Passo a passo, Como usar, Manual, Novidades, Renomear pastas, Procurar o jogo (para o jogo sem capa), aviso de nomes com mais de 25 letras e de mais de 200 jogos, ouvir as músicas do menu.
 - **`generate_usb.py`**: capas, telas, vídeos e textos dos jogos, com o assistente em passos.
-- **`converter_tudo.py`**: converte uma biblioteca inteira de capas, telas e vídeos de uma vez (só o que é novo), usando metade dos núcleos do PC em prioridade baixa.

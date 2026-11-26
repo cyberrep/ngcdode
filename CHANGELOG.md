@@ -2,16 +2,16 @@
 
 [← Back to start](README.md) · **English** · [Português](CHANGELOG.pt.md) · [Español](CHANGELOG.es.md)
 
-Everything that changed in the **menu** (`BOOT.ISO`), the **NGCD firmware** (loader + MCU) and the **tools** (web page, `generate_usb.py` and `converter_tudo.py`), newest first.
+Everything that changed in the **menu** (`BOOT.ISO`), the **NGCD firmware** (loader + MCU) and the **tools** (web page and `generate_usb.py`), newest first.
 
-- [Menu — 1.0](#menu--10)
-- [Menu — before 1.0 (0.x versions)](#menu--before-10-0x-versions)
-- [NGCD firmware](#ngcd-firmware)
-- [Tools (page, generate_usb.py, converter_tudo.py)](#tools-page-generate_usbpy-converter_tudopy)
+- [Menu — 1.0](#-menu--10)
+- [Menu — before 1.0 (0.x versions)](#-menu--before-10-0x-versions)
+- [NGCD firmware](#-ngcd-firmware)
+- [Tools (page, generate_usb.py)](#-tools-page-generate_usbpy)
 
 ---
 
-## Menu — 1.0
+## 🚀 Menu — 1.0
 
 First public release. It brings together everything done in the development versions (0.x), described below, and adds:
 
@@ -27,11 +27,11 @@ What 1.0 has, in short: 6 display modes (List, Covers, Carousel, Carousel FX, Sh
 
 ---
 
-## Menu — before 1.0 (0.x versions)
+## 🧪 Menu — before 1.0 (0.x versions)
 
 The development versions, newest first.
 
-### 0.70 — Packed covers and sliding Carousel FX
+### 📦 0.70 — Packed covers and sliding Carousel FX
 
 **Packed covers and screenshots**
 - 📦 **All covers in a single file** (`.media/covers/cover.pak`, with the 5 sizes of each game) and the screenshots in another (`.media/screenshots/screenshots.pak`). The menu opens the pack once and goes straight to the image, instead of looking for each file in a folder with hundreds of them.
@@ -44,17 +44,17 @@ The development versions, newest first.
 - The default cover (game without a cover) is turned toward the centre too, with a reflection.
 - Fixed: a strip of another cover under the reflection (console only) and the top bar and footer cut on the right.
 
-### 0.63 — Fixes from the console test
+### 📦 0.63 — Fixes from the console test
 - Carousel FX no longer freezes on entry without the 96 covers.
 - Showcase and Strip without the stray dots in the description; Strip without half a cover over the default cover.
 - Footer buttons closer together, to fit on the TV.
 
-### 0.62 — Carousel FX, Showcase and Strip
+### 📦 0.62 — Carousel FX, Showcase and Strip
 - 🖼️ **Three new display modes**: **Carousel FX** (side covers turned toward the centre, as trapezoids, with a floor reflection), **Showcase** (large cover, sheet and the whole description with scrolling) and **Strip** (screenshot and data on top, a row of covers below).
 - **Carousel with bigger inner covers** (96, between the outer and the centre one), in a new 16-palette cover.
 - Games footer with **C FAV**, **D INFO** and the **SELECT FILTER** button; SELECT or START open the filter.
 
-### 0.59 to 0.61 — Filter, BIOS dump and modular menu
+### 📦 0.59 to 0.61 — Filter, BIOS dump and modular menu
 - 🔎 **Filter** by genre and country, with `[ ]`/`[X]` boxes, how many games pass and the **A MARK**, **B OK**, **C CLEAR** buttons.
 - 💾 **Dump ROM**: the console copies its own BIOS (512 KB) to `.roms/` (e.g. `frontload_japao.bin`), without duplicates.
 - 🧩 **Modular menu**: Options, saves, CD drive, filter and the new modes are only read when they open. The menu's fixed memory gained ~68 KB free.
@@ -63,7 +63,7 @@ The development versions, newest first.
 - CD timing meter in the list info strip.
 - The folder for installed firmwares became `.wad`.
 
-### 0.52 to 0.58 — Card in the ODE standard
+### 📦 0.52 to 0.58 — Card in the ODE standard
 - 🗂️ **Everything in the ODE standard**: the menu in `.boot`, media in `.media`, options, favorites, recents, stats and the game list in `.config` (`ngcd*.ode`, text, one option per line), saves in `.saves`.
 - **Media outside `BOOT.ISO`**: the menu became small and covers are read straight from the card, by game name.
 - **List video without stutter**: read bit by bit, it starts as soon as the first frame arrives.
@@ -73,7 +73,7 @@ The development versions, newest first.
 - Carousel with the frame outside the cover and stepped sizes (48, 64, 128).
 - The firmware already installed is not rewritten at every power-on.
 
-### 0.31 to 0.45 — New game box and Carousel
+### 📦 0.31 to 0.45 — New game box and Carousel
 - 🎠 **Carousel**: a large 128 × 128 cover in the centre and two on each side.
 - **Game info**: over the media or below it; screenshot and video in 4:3.
 - **No more lines when loading** cover, screenshot and video: colours are only written while the TV is not drawing.
@@ -82,7 +82,7 @@ The development versions, newest first.
 - Play count in the bottom bar.
 - **SD card space** with MCU NGCD 00.12.
 
-### 0.21 to 0.30 — CD box, saves and quiet reading
+### 📦 0.21 to 0.30 — CD box, saves and quiet reading
 - 💿 **CD box** on the main screen, with a spinning disc: boots the CD in the drive.
 - 💾 **Storage manager**: console and SD card, copy, restore and delete saves; backup of the whole memory.
 - 🤫 **Quiet reading**: the card is only read while the TV is not drawing (no snow on the picture).
@@ -90,7 +90,7 @@ The development versions, newest first.
 - **Official game names** (Title or Folder).
 - Translucent bands on the cover (transparency 0 to 100%), last game thumbnail, About and Thanks.
 
-### 0.1 to 0.20 — The base
+### 📦 0.1 to 0.20 — The base
 - **0.20** — Standard window for questions, progress and result; CD drive, developer mode, Debug DIPs and timing meter.
 - **0.17** — 🎵 10 background tracks, with volume and Random; video starting faster.
 - **0.15 and 0.16** — Covers mode (grid); accordion Options; Letters for the whole menu.
@@ -101,7 +101,7 @@ The development versions, newest first.
 
 ---
 
-## NGCD firmware
+## 🧩 NGCD firmware
 
 The firmware comes in a `.WAD` with three parts: the **loader** (the console BIOS patch), the **MCU** (the SD Loader microcontroller program) and the **CPLD**. See the explanation in the [README](README.md#-what-is-in-the-firmware-wad-loader-mcu-and-cpld).
 
@@ -123,20 +123,18 @@ The firmware comes in a `.WAD` with three parts: the **loader** (the console BIO
 
 ---
 
-## Tools (page, generate_usb.py, converter_tudo.py)
+## 🛠️ Tools (page, generate_usb.py)
 
-### November 2026 (menu 1.0)
+### 📅 November 2026 (menu 1.0)
 - **Page**: the header shows the menu version (1.0) and the firmware version.
 - **Page and `generate_usb.py`**: **Cover and screenshot format: PAK or Individual**, converting what is already on the card (`--individual` in the generator).
-- **`converter_tudo.py`**: makes every cover size (128, 96, 96 with 16 palettes, 64 and the 24 thumbnail); the generator uses the ready ones.
 
-### November 2026 (menus 0.52 to 0.63)
+### 📅 November 2026 (menus 0.52 to 0.63)
 - **`generate_usb.py` rebuilt on the page's layout** (`.boot`, `.media`, `.config`) and now **fixes the discs** for the SD Loader: `.chd` (chdman), `.nrg`, `.img` + `.ccd`, `.iso`/`.img`/`.bin` without `.cue`, `.iso` + mp3/ogg/flac (tracks become `.wav`), `.zip`/`.7z`, a game loose in the root and a `.cue` with TABs.
 - The page **only copies** the menu and the firmware from the kit folder, and only when they changed; writing again does not rewrite what is already on the card.
 - The page copies the menu to `.boot` and warns you when the console still has the old loader.
 - 16-palette 96 covers for the Carousel, also created for the covers already on the card.
 
-### November 2026 (menus 0.6 to 0.30)
+### 📅 November 2026 (menus 0.6 to 0.30)
 - **Web page** that writes the whole card: Step by step, How to use, Manual, What's new, Rename folders, Find the game (for a game without a cover), warnings for names longer than 25 letters and for more than 200 games, listen to the menu music.
 - **`generate_usb.py`**: covers, screenshots, videos and game texts, with a step-by-step wizard.
-- **`converter_tudo.py`**: converts a whole library of covers, screenshots and videos at once (only what is new), using half of the PC's cores at low priority.

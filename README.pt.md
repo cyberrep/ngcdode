@@ -107,7 +107,7 @@ O Neo CD SD Loader tem **três partes programáveis**, e um único arquivo **`.W
 | **MCU** | O programa do microcontrolador do SD Loader | No microcontrolador (STM32) do SD Loader | Lê o cartão SD (FAT32), entrega os "setores do CD" ao console, grava os saves e acende os LEDs. **No NGCD ganhou comandos de arquivo**: abrir, ler em qualquer ponto (*seek*), gravar, listar, criar pastas, apagar e renomear, e o espaço do cartão. |
 | **CPLD** | A lógica de hardware do SD Loader | No chip lógico do SD Loader | A ponte entre o console e o microcontrolador. **Não muda**: é a mesma do projeto original. |
 
-### Versões
+### 🔢 Versões
 
 | | Original do NeoCDSDLoader | NGCD ODE |
 |---|---|---|
@@ -198,7 +198,7 @@ Dentro do menu NGCD esses atalhos ficam desligados, para não sair do menu sem q
 
 ## 📺 O menu
 
-### Menu principal
+### 🏠 Menu principal
 
 Cinco caixas: **Favoritos**, **Jogos**, **Estatísticas**, **Recentes** e **Opções**, e embaixo o painel do **Último jogo**, com a capinha, o nome e as vezes que foi jogado.
 
@@ -222,7 +222,7 @@ Escolha em *Opções → Aparência → Jogos → Exibição*.
 
 Jogo sem capa mostra a capa padrão (o CD do Neo Geo), também virada no Carrossel FX.
 
-### Botões
+### 🎮 Botões
 
 | Onde | Botões |
 |---|---|
@@ -233,7 +233,7 @@ Jogo sem capa mostra a capa padrão (o CD do Neo Geo), também virada no Carross
 | **Filtro** | **A** marca · **C** limpa · **B** aplica e volta |
 | **Opções** | ▲ ▼ anda · ◄ ► ou **A** muda · **B** volta |
 
-### A lista de jogos
+### 📋 A lista de jogos
 
 - **Um jogo por pasta**, como o SD Loader pede. O nome mostrado é o **título oficial** do jogo (ou o nome da pasta, se preferir).
 - **Ordenação**: por nome ou mais jogados; com ou sem o artigo na frente.
@@ -403,11 +403,11 @@ A página e o gerador preparam tudo e gravam na pasta **`.media`** do cartão, c
 
 ## 🛠️ Preparar o cartão SD
 
-### Pelo navegador (recomendado)
+### 🌐 Pelo navegador (recomendado)
 
 Abra **[https://cyberrep.github.io/ngcdode/](https://cyberrep.github.io/ngcdode/)**, escolha o seu cartão SD e a página copia o menu, o firmware, as capas, as telas e os textos dos seus jogos, já prontos. Funciona no Chrome e no Edge do computador, e a própria página tem o **Passo a passo** e o **Manual**.
 
-### Pelo gerador (avançado)
+### 🛠️ Pelo gerador (avançado)
 
 Você baixa **um único arquivo**, o `generate_usb.py`. Ele faz todo o resto com um assistente passo a passo:
 
@@ -420,7 +420,7 @@ Você baixa **um único arquivo**, o `generate_usb.py`. Ele faz todo o resto com
 
 Ele **nunca apaga** os seus jogos.
 
-### Formatos de jogo
+### 💿 Formatos de jogo
 
 O SD Loader lê **um `.cue` por pasta**, com a trilha de dados em `MODE1/2048` (`.iso`) ou `MODE1/2352` (`.bin`) e o áudio em `.bin` ou `.wav` (44100 Hz, 16 bits, estéreo). **Jogos no formato Redump (`.cue` + `.bin`) rodam direto.** O resto, o gerador converte.
 

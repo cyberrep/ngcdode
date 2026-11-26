@@ -1541,7 +1541,7 @@ function drawWcard(){
 function drawHelp(){
   $("title").textContent = t("s_help");
   $("view").innerHTML = `<p class="note">${esc(t("h_note"))}</p><ol class="help">` +
-    t("h").map(x => `<li><b>${esc(x[0])}</b><span>${esc(x[1])}</span></li>`).join("") + `</ol>
+    t("h").map((x, i) => `<li><b>${["💳", "🎮", "🖼️", "⚙️", "💾"][i] || ""} ${esc(x[0])}</b><span>${esc(x[1])}</span></li>`).join("") + `</ol>
     <p class="note">${esc(t("h_demo"))}</p>
     <p class="note">${esc(t("h_more"))} <a href="#" data-man="1">${esc(MANUAL_KEY[lang] || MANUAL_KEY.en)}</a>.</p>`;
   keys([["back","B",t("k_back")],["manual","SELECT",MANUAL_KEY[lang] || MANUAL_KEY.en],"gap",["demo","D",t("k_demo")],["pick","A",t("k_pick"),noFS]]);
@@ -1586,12 +1586,12 @@ const MANUAL = {
    `<p>O nosso sistema (menu + loader NGCD) roda <b>em cima</b> do <b>Neo CD SD Loader</b> (NeoCDSDLoader) (placa, MCU e CPLD). Ele precisa estar instalado no console e com o firmware <b>v0.11</b> (MENU 0.11, MCU 00.11, CPLD 00.03). Não funciona no CDZ.</p>
     <p>Projeto <b>NeoCDSDLoader</b> (GPL-3.0): <a href="https://github.com/furrtek/NeoCDSDLoader" target="_blank">github.com/NeoCDSDLoader</a> · <a href="https://github.com/furrtek/NeoCDSDLoader/blob/main/LICENSE" target="_blank">licença</a>.</p>`],
   ["O nosso sistema",
-   `<p><b>Firmware NGCD 00.12</b> (<code>NSDLZZZZ.WAD</code>, na raiz): o patch da BIOS (loader) e o programa do MCU (NGCD 00.12, com os comandos de arquivo: <code>.media</code>, <code>.config</code>, espaço do SD), mais o CPLD 00.03 do NeoCDSDLoader. Depois de instalado, o menu guarda o WAD na pasta <code>wad</code>. Carrega o nosso menu sozinho ao ligar; sem cartão ou sem o <code>.boot/BOOT.ISO</code>, mostra um aviso (A abre o menu do SD Loader).</p>
+   `<p><b>Firmware NGCD 00.12</b> (<code>NSDLZZZZ.WAD</code>, na raiz): o patch da BIOS (loader) e o programa do MCU (NGCD 00.12, com os comandos de arquivo: <code>.media</code>, <code>.config</code>, espaço do SD), mais o CPLD 00.03 do NeoCDSDLoader. Depois de instalado, o menu guarda o WAD na pasta <code>.wad</code>. Carrega o nosso menu sozinho ao ligar; sem cartão ou sem o <code>.boot/BOOT.ISO</code>, mostra um aviso (A abre o menu do SD Loader).</p>
     <p><b>Menu</b> (<code>.boot/BOOT.ISO</code>): capas, telas, vídeos, favoritos, estatísticas, músicas, gerenciador de armazenamento, opções — no padrão dos menus ODE.</p>
-    <p><b>Opções, favoritos, recentes, estatísticas e a lista de jogos</b>: pasta <code>.config</code> (<code>ngcd*.ode</code>, texto,). Mídias em <code>.media</code>, saves em <code>.saves</code>.</p>`],
+    <p><b>Opções, favoritos, recentes, estatísticas e a lista de jogos</b>: pasta <code>.config</code> (<code>ngcd*.ode</code>, texto). Mídias em <code>.media</code>, saves em <code>.saves</code>.</p>`],
   ["Instalar ou atualizar o loader",
-   `<ol><li>A página copia o <code>NSDLZZZZ.WAD</code> para a raiz do cartão (ou copie você). <b>Deixe só um .WAD na raiz</b>: o MCU usa o primeiro que achar. Os outros podem ficar na pasta <code>wad</code>.</li>
-    <li>Ligue o console. Se o loader estiver desatualizado, o LED azul pisca e o console reinicia sozinho em cerca de 1 minuto. Ou use <b>Opções → Dispositivo SD Loader → Atualizar o loader</b>: ele lista os .WAD da raiz e da pasta <code>wad</code> e você escolhe. Depois de instalado, o menu move o WAD para <code>wad</code> (backup).</li>
+   `<ol><li>A página copia o <code>NSDLZZZZ.WAD</code> para a raiz do cartão (ou copie você). <b>Deixe só um .WAD na raiz</b>: o MCU usa o primeiro que achar. Os outros podem ficar na pasta <code>.wad</code>.</li>
+    <li>Ligue o console. Se o loader estiver desatualizado, o LED azul pisca e o console reinicia sozinho em cerca de 1 minuto. Ou use <b>Opções → Dispositivo SD Loader → Atualizar o loader</b>: ele lista os .WAD da raiz e da pasta <code>.wad</code> e você escolhe. Depois de instalado, o menu move o WAD para <code>.wad</code> (backup).</li>
     <li>Para voltar ao original do NeoCDSDLoader: deixe só o <code>NSDL0011.WAD</code> oficial e atualize do mesmo jeito.</li></ol>`],
   ["Se algo der errado",
    `<p><b>Ligue segurando A, B, C ou D</b> (modo de segurança): abre o menu original do NeoCDSDLoader, sem o nosso menu e sem a tela de aviso. Ali, <b>C → Update firmware</b> grava o .WAD da raiz. Na tela de aviso (sem a pasta <code>.boot</code>): <b>A</b> = menu do SD Loader, <b>C</b> = atualizar pelo .WAD da raiz.</p>
@@ -1612,11 +1612,11 @@ const MANUAL = {
    `<p>Nuestro sistema (menú + loader NGCD) funciona <b>sobre</b> el <b>Neo CD SD Loader</b> de NeoCDSDLoader (placa, MCU y CPLD), con el firmware <b>v0.11</b> (MENU 0.11, MCU 00.11, CPLD 00.03). No funciona en el CDZ.</p>
     <p>Proyecto <b>NeoCDSDLoader</b> (GPL-3.0): <a href="https://github.com/furrtek/NeoCDSDLoader" target="_blank">github.com/NeoCDSDLoader</a>.</p>`],
   ["Nuestro sistema",
-   `<p><b>Firmware NGCD 00.12</b> (<code>NSDLZZZZ.WAD</code>): el parche del BIOS (loader) y el programa del MCU (NGCD 00.12), más el CPLD 00.03 de NeoCDSDLoader; ya instalado, el menú lo guarda en la carpeta <code>wad</code>. <b>Menú</b>: <code>.boot/BOOT.ISO</code>. Opciones: <code>_NGCCONFIG.SAV</code>.</p>`],
+   `<p><b>Firmware NGCD 00.12</b> (<code>NSDLZZZZ.WAD</code>): el parche del BIOS (loader) y el programa del MCU (NGCD 00.12), más el CPLD 00.03 de NeoCDSDLoader; ya instalado, el menú lo guarda en la carpeta <code>.wad</code>. <b>Menú</b>: <code>.boot/BOOT.ISO</code>. Opciones: <code>_NGCCONFIG.SAV</code>.</p>`],
   ["Instalar o actualizar el loader",
-   `<ol><li>Copia <code>NSDLZZZZ.WAD</code> a la raíz. <b>Deja un solo .WAD en la raíz</b> (los demás, en la carpeta <code>wad</code>).</li><li>Enciende la consola (LED azul parpadea ~1 minuto) o usa <b>Opciones → Dispositivo SD Loader → Actualizar el loader</b>.</li><li>Para volver al original: deja solo <code>NSDL0011.WAD</code>.</li></ol>`],
+   `<ol><li>Copia <code>NSDLZZZZ.WAD</code> a la raíz. <b>Deja un solo .WAD en la raíz</b> (los demás, en la carpeta <code>.wad</code>).</li><li>Enciende la consola (LED azul parpadea ~1 minuto) o usa <b>Opciones → Dispositivo SD Loader → Actualizar el loader</b>.</li><li>Para volver al original: deja solo <code>NSDL0011.WAD</code>.</li></ol>`],
   ["Si algo sale mal",
-   `<p><b>Enciende manteniendo B</b>: abre el menú original de NeoCDSDLoader; <b>C → Update firmware</b> graba el .WAD de la raíz. LED rojo 3 veces: modo DFU (USB) para el rescate.</p>`],
+   `<p><b>Enciende manteniendo A, B, C o D</b> (modo seguro): abre el menú original de NeoCDSDLoader; <b>C → Update firmware</b> graba el .WAD de la raíz. LED rojo 3 veces: modo DFU (USB) para el rescate.</p>`],
   ["Durante el juego (del loader de NeoCDSDLoader)",
    `<ul><li><b>SELECT + START</b>: menú del juego (trucos, Soft DIPs, salir).</li><li><b>A + B + C + START</b>: vuelve al menú.</li><li><b>A + B + C + SELECT</b>: vuelve a la pantalla de título.</li><li>Problema conocido: a veces la música del CD empieza un poco tarde.</li></ul>`],
   ["Códigos de LED (del hardware de NeoCDSDLoader, no de nuestro menú)",`<p>Solo aparecen al primer encendido o durante una actualización.</p>`, "leds"],
@@ -1627,11 +1627,11 @@ const MANUAL = {
    `<p>Our system (menu + NGCD loader) runs <b>on top of</b> the NeoCDSDLoader's <b>Neo CD SD Loader</b> (board, MCU and CPLD), with firmware <b>v0.11</b> (MENU 0.11, MCU 00.11, CPLD 00.03). It does not work on the CDZ.</p>
     <p>Project <b>NeoCDSDLoader</b> (GPL-3.0): <a href="https://github.com/furrtek/NeoCDSDLoader" target="_blank">github.com/NeoCDSDLoader</a> · <a href="https://github.com/furrtek/NeoCDSDLoader/blob/main/LICENSE" target="_blank">license</a>.</p>`],
   ["Our system",
-   `<p><b>NGCD 00.12 firmware</b> (<code>NSDLZZZZ.WAD</code>): the BIOS patch (loader) and the MCU program (NGCD 00.12), plus the NeoCDSDLoader's CPLD 00.03; once installed, the menu keeps it in the <code>wad</code> folder. <b>Menu</b>: <code>.boot/BOOT.ISO</code>. Options: <code>_NGCCONFIG.SAV</code>.</p>`],
+   `<p><b>NGCD 00.12 firmware</b> (<code>NSDLZZZZ.WAD</code>): the BIOS patch (loader) and the MCU program (NGCD 00.12), plus the NeoCDSDLoader's CPLD 00.03; once installed, the menu keeps it in the <code>.wad</code> folder. <b>Menu</b>: <code>.boot/BOOT.ISO</code>. Options: <code>_NGCCONFIG.SAV</code>.</p>`],
   ["Install or update the loader",
-   `<ol><li>Copy <code>NSDLZZZZ.WAD</code> to the card root. <b>Keep only one .WAD in the root</b> (others can stay in the <code>wad</code> folder).</li><li>Power on (the blue LED blinks for about a minute) or use <b>Options → SD Loader device → Update the loader</b>.</li><li>Back to the original: keep only <code>NSDL0011.WAD</code>.</li></ol>`],
+   `<ol><li>Copy <code>NSDLZZZZ.WAD</code> to the card root. <b>Keep only one .WAD in the root</b> (others can stay in the <code>.wad</code> folder).</li><li>Power on (the blue LED blinks for about a minute) or use <b>Options → SD Loader device → Update the loader</b>.</li><li>Back to the original: keep only <code>NSDL0011.WAD</code>.</li></ol>`],
   ["If something goes wrong",
-   `<p><b>Power on holding B</b>: the NeoCDSDLoader's original menu opens; <b>C → Update firmware</b> writes the .WAD from the root. Red LED 3 times: DFU (USB) rescue mode.</p>`],
+   `<p><b>Power on holding A, B, C or D</b> (safe mode): the NeoCDSDLoader's original menu opens; <b>C → Update firmware</b> writes the .WAD from the root. Red LED 3 times: DFU (USB) rescue mode.</p>`],
   ["In game (the NeoCDSDLoader's loader features)",
    `<ul><li><b>SELECT + START</b>: in-game menu (cheats, Soft DIPs, quit).</li><li><b>A + B + C + START</b>: back to the menu.</li><li><b>A + B + C + SELECT</b>: back to the game's title screen.</li><li>Known issue: CD music (CDDA) sometimes starts a little late.</li></ul>`],
   ["LED codes (the NeoCDSDLoader's hardware, not our menu)",`<p>They only show at first power-on or during an update; normal errors appear on screen.</p>`, "leds"],
@@ -1640,8 +1640,11 @@ const MANUAL = {
 function drawManual(){
   const m = MANUAL[lang] || MANUAL.en, leds = LEDS[lang] || LEDS.en;
   $("title").textContent = m.title;
-  $("view").innerHTML = m.sec.map(([h, body, extra]) => `<div class="panel man"><h2>${esc(h)}</h2>${body}${extra === "leds" ?
-    `<table class="leds">${leds.map(([a, b]) => `<tr><td>${esc(a)}</td><td>${esc(b)}</td></tr>`).join("")}</table>` : ""}</div>`).join("");
+  /* 1.0: ícones nos títulos e as cores dos LEDs em bolinhas (como no README) */
+  const ICO = ["🧩", "🎮", "🔌", "🛟", "🕹️", "💡", "🙏"];
+  const dots = a => a.split(/,\s*/).map(w => /^(verm|rojo|red)/i.test(w) ? "🔴" : /^(amar|yell)/i.test(w) ? "🟡" : /^(verde|green)/i.test(w) ? "🟢" : /^(azul|blue)/i.test(w) ? "🔵" : "").join("");
+  $("view").innerHTML = m.sec.map(([h, body, extra], i) => `<div class="panel man"><h2>${ICO[i] || ""} ${esc(h)}</h2>${body}${extra === "leds" ?
+    `<table class="leds">${leds.map(([a, b]) => `<tr><td>${dots(a)} ${esc(a)}</td><td>${esc(b)}</td></tr>`).join("")}</table>` : ""}</div>`).join("");
   keys([["back","B",t("k_back")]]);
 }
 

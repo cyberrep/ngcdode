@@ -2,16 +2,16 @@
 
 [← Volver al inicio](README.es.md) · [English](CHANGELOG.md) · [Português](CHANGELOG.pt.md) · **Español**
 
-Todo lo que cambió en el **menú** (`BOOT.ISO`), en el **firmware NGCD** (loader + MCU) y en las **herramientas** (página web, `generate_usb.py` y `converter_tudo.py`), de la versión más nueva a la más antigua.
+Todo lo que cambió en el **menú** (`BOOT.ISO`), en el **firmware NGCD** (loader + MCU) y en las **herramientas** (página web y `generate_usb.py`), de la versión más nueva a la más antigua.
 
-- [Menú — 1.0](#menú--10)
-- [Menú — antes de la 1.0 (versiones 0.x)](#menú--antes-de-la-10-versiones-0x)
-- [Firmware NGCD](#firmware-ngcd)
-- [Herramientas (página, generate_usb.py, converter_tudo.py)](#herramientas-página-generate_usbpy-converter_tudopy)
+- [Menú — 1.0](#-menú--10)
+- [Menú — antes de la 1.0 (versiones 0.x)](#-menú--antes-de-la-10-versiones-0x)
+- [Firmware NGCD](#-firmware-ngcd)
+- [Herramientas (página, generate_usb.py)](#-herramientas-página-generate_usbpy)
 
 ---
 
-## Menú — 1.0
+## 🚀 Menú — 1.0
 
 Primera versión pública. Reúne todo lo hecho en las versiones de desarrollo (0.x), descritas abajo, y añade:
 
@@ -27,11 +27,11 @@ Lo que tiene la 1.0, en resumen: 6 modos de vista (Lista, Portadas, Carrusel, Ca
 
 ---
 
-## Menú — antes de la 1.0 (versiones 0.x)
+## 🧪 Menú — antes de la 1.0 (versiones 0.x)
 
 Las versiones de desarrollo, de la más nueva a la más antigua.
 
-### 0.70 — Portadas en paquete y Carrusel FX deslizante
+### 📦 0.70 — Portadas en paquete y Carrusel FX deslizante
 
 **Portadas y pantallas en paquete**
 - 📦 **Todas las portadas en un solo archivo** (`.media/covers/cover.pak`, con los 5 tamaños de cada juego) y las pantallas en otro (`.media/screenshots/screenshots.pak`). El menú abre el paquete una vez y va directo a la imagen, en vez de buscar cada archivo en una carpeta con cientos de ellos.
@@ -44,17 +44,17 @@ Las versiones de desarrollo, de la más nueva a la más antigua.
 - La portada por defecto (juego sin portada) también queda girada hacia el centro, con reflejo.
 - Corregidos: una franja de otra portada bajo el reflejo (solo en la consola) y la barra de arriba y el pie cortados a la derecha.
 
-### 0.63 — Correcciones de la prueba en consola
+### 📦 0.63 — Correcciones de la prueba en consola
 - El Carrusel FX ya no se cuelga al entrar sin las portadas de 96.
 - Vitrina y Franja sin los puntitos en la descripción; Franja sin media portada sobre la portada por defecto.
 - Botones del pie más juntos, para caber en la TV.
 
-### 0.62 — Carrusel FX, Vitrina y Franja
+### 📦 0.62 — Carrusel FX, Vitrina y Franja
 - 🖼️ **Tres modos de vista nuevos**: **Carrusel FX** (portadas de los lados giradas hacia el centro, en trapecio, con reflejo en el suelo), **Vitrina** (portada grande, ficha y la descripción entera con desplazamiento) y **Franja** (pantalla y datos arriba, fila de portadas abajo).
 - **Carrusel con las portadas de dentro más grandes** (96, entre la de fuera y la del centro), en una portada nueva de 16 paletas.
 - Pie de Juegos con **C FAV**, **D INFO** y el botón **SELECT FILTRO**; SELECT o START abren el filtro.
 
-### 0.59 a 0.61 — Filtro, extracción de la BIOS y menú en módulos
+### 📦 0.59 a 0.61 — Filtro, extracción de la BIOS y menú en módulos
 - 🔎 **Filtro** por género y país, con casillas `[ ]`/`[X]`, cuántos juegos pasan y los botones **A MARCAR**, **B OK**, **C LIMPIAR**.
 - 💾 **Extraer ROM**: la consola copia su propia BIOS (512 KB) a `.roms/` (ej. `frontload_japao.bin`), sin duplicar.
 - 🧩 **Menú en módulos**: Opciones, partidas, unidad de CD, filtro y los modos nuevos solo se leen al abrirlos. La memoria fija del menú ganó ~68 KB libres.
@@ -63,7 +63,7 @@ Las versiones de desarrollo, de la más nueva a la más antigua.
 - Medidor de tiempo del CD en la banda de información de la lista.
 - La carpeta de los firmwares instalados pasó a ser `.wad`.
 
-### 0.52 a 0.58 — Tarjeta con el estándar ODE
+### 📦 0.52 a 0.58 — Tarjeta con el estándar ODE
 - 🗂️ **Todo con el estándar ODE**: el menú en `.boot`, los medios en `.media`, las opciones, favoritos, recientes, estadísticas y la lista de juegos en `.config` (`ngcd*.ode`, texto, una opción por línea), las partidas en `.saves`.
 - **Medios fuera del `BOOT.ISO`**: el menú quedó pequeño y las portadas se leen directo de la tarjeta, por el nombre del juego.
 - **Vídeo de la lista sin trabas**: leído poco a poco, empieza en cuanto llega el primer cuadro.
@@ -73,7 +73,7 @@ Las versiones de desarrollo, de la más nueva a la más antigua.
 - Carrusel con el marco por fuera de la portada y tamaños escalonados (48, 64, 128).
 - El firmware ya instalado no se regraba en cada encendido.
 
-### 0.31 a 0.45 — Caja del juego nueva y Carrusel
+### 📦 0.31 a 0.45 — Caja del juego nueva y Carrusel
 - 🎠 **Carrusel**: portada grande de 128 × 128 en el centro y dos a cada lado.
 - **Info de los juegos**: sobre la imagen o debajo; pantalla y vídeo en 4:3.
 - **Sin rayas al cargar** portada, pantalla y vídeo: los colores solo se graban mientras la TV no dibuja.
@@ -82,7 +82,7 @@ Las versiones de desarrollo, de la más nueva a la más antigua.
 - Veces jugado en la barra de abajo.
 - **Espacio de la tarjeta SD** con el MCU NGCD 00.12.
 
-### 0.21 a 0.30 — Caja CD, partidas y lectura silenciosa
+### 📦 0.21 a 0.30 — Caja CD, partidas y lectura silenciosa
 - 💿 **Caja CD** en la pantalla principal, con el disco girando: arranca el CD que está en el lector.
 - 💾 **Gestor de almacenamiento**: consola y tarjeta SD, copiar, restaurar y borrar partidas; copia de la memoria entera.
 - 🤫 **Lectura silenciosa**: la tarjeta solo se lee mientras la TV no dibuja (sin lluvia en la imagen).
@@ -90,7 +90,7 @@ Las versiones de desarrollo, de la más nueva a la más antigua.
 - **Nombre oficial de los juegos** (Título o Carpeta).
 - Bandas translúcidas en la portada (transparencia de 0 a 100%), miniatura del último juego, Acerca de y Agradecimientos.
 
-### 0.1 a 0.20 — La base
+### 📦 0.1 a 0.20 — La base
 - **0.20** — Ventana estándar para preguntas, progreso y resultado; unidad de CD, modo desarrollador, Debug DIPs y medidor de tiempo.
 - **0.17** — 🎵 10 músicas de fondo, con volumen y Aleatoria; vídeo que empieza más rápido.
 - **0.15 y 0.16** — Modo Portadas (rejilla); Opciones en acordeón; Letras para todo el menú.
@@ -101,7 +101,7 @@ Las versiones de desarrollo, de la más nueva a la más antigua.
 
 ---
 
-## Firmware NGCD
+## 🧩 Firmware NGCD
 
 El firmware viene en un `.WAD` con tres partes: el **loader** (el parche de la BIOS de la consola), el **MCU** (el programa del microcontrolador del SD Loader) y el **CPLD**. Mira la explicación en el [README](README.es.md#-qué-hay-en-el-firmware-wad-loader-mcu-y-cpld).
 
@@ -123,20 +123,18 @@ El firmware viene en un `.WAD` con tres partes: el **loader** (el parche de la B
 
 ---
 
-## Herramientas (página, generate_usb.py, converter_tudo.py)
+## 🛠️ Herramientas (página, generate_usb.py)
 
-### Noviembre de 2026 (menú 1.0)
+### 📅 Noviembre de 2026 (menú 1.0)
 - **Página**: la cabecera muestra la versión del menú (1.0) y del firmware.
 - **Página y `generate_usb.py`**: **Formato de portadas y pantallas: PAK o Individual**, con la conversión de lo que ya está en la tarjeta (`--individual` en el generador).
-- **`converter_tudo.py`**: genera todos los tamaños de portada (128, 96, 96 de 16 paletas, 64 y la miniatura de 24); el generador usa las listas.
 
-### Noviembre de 2026 (menús 0.52 a 0.63)
+### 📅 Noviembre de 2026 (menús 0.52 a 0.63)
 - **`generate_usb.py` rehecho con el esquema de la página** (`.boot`, `.media`, `.config`) y ahora **arregla los discos** para el SD Loader: `.chd` (chdman), `.nrg`, `.img` + `.ccd`, `.iso`/`.img`/`.bin` sin `.cue`, `.iso` + mp3/ogg/flac (las pistas pasan a `.wav`), `.zip`/`.7z`, juego suelto en la raíz y `.cue` con TAB.
 - La página **solo copia** el menú y el firmware de la carpeta del kit, y solo cuando cambiaron; grabar de nuevo no regraba lo que ya está en la tarjeta.
 - La página copia el menú a `.boot` y avisa cuando la consola todavía tiene el loader antiguo.
 - Portadas de 96 con 16 paletas para el Carrusel, creadas también para las portadas que ya están en la tarjeta.
 
-### Noviembre de 2026 (menús 0.6 a 0.30)
+### 📅 Noviembre de 2026 (menús 0.6 a 0.30)
 - **Página web** que graba la tarjeta entera: Paso a paso, Cómo usar, Manual, Novedades, Renombrar carpetas, Buscar el juego (para el juego sin portada), avisos de nombres de más de 25 letras y de más de 200 juegos, oír las músicas del menú.
 - **`generate_usb.py`**: portadas, pantallas, vídeos y textos de los juegos, con el asistente por pasos.
-- **`converter_tudo.py`**: convierte una biblioteca entera de portadas, pantallas y vídeos de una vez (solo lo nuevo), usando la mitad de los núcleos del PC en prioridad baja.

@@ -109,7 +109,7 @@ The Neo CD SD Loader has **three programmable parts**, and a single **`.WAD`** f
 | **MCU** | The SD Loader microcontroller program | On the SD Loader microcontroller (STM32) | Reads the SD card (FAT32), hands "CD sectors" to the console, writes saves and lights the LEDs. **In NGCD it gained file commands**: open, read at any point (*seek*), write, list, make folders, delete and rename, and card space. |
 | **CPLD** | The SD Loader hardware logic | On the SD Loader logic chip | The bridge between the console and the microcontroller. **Unchanged**: the same as the original project. |
 
-### Versions
+### 🔢 Versions
 
 | | NeoCDSDLoader original | NGCD ODE |
 |---|---|---|
@@ -200,7 +200,7 @@ Inside the NGCD menu these shortcuts are off, so you do not leave the menu by ac
 
 ## 📺 The menu
 
-### Main menu
+### 🏠 Main menu
 
 Five boxes: **Favorites**, **Games**, **Stats**, **Recents** and **Options**, and below them the **Last game** panel, with the thumbnail, the name and how many times it was played.
 
@@ -224,7 +224,7 @@ Choose in *Options → Appearance → Games → View*.
 
 A game without a cover shows the default cover (the Neo Geo CD disc, with rounded corners), turned in the Carousel FX too.
 
-### Buttons
+### 🎮 Buttons
 
 | Where | Buttons |
 |---|---|
@@ -235,7 +235,7 @@ A game without a cover shows the default cover (the Neo Geo CD disc, with rounde
 | **Filter** | **A** marks · **C** clears · **B** applies and goes back |
 | **Options** | ▲ ▼ move · ◄ ► or **A** change · **B** back |
 
-### The game list
+### 📋 The game list
 
 - **One game per folder**, as the SD Loader requires. The name shown is the game's **official title** (or the folder name, if you prefer).
 - **Sorting**: by name or most played; with or without the article in front.
@@ -405,11 +405,11 @@ The page and the generator prepare everything and write it to the card's **`.med
 
 ## 🛠️ Preparing the SD card
 
-### In the browser (recommended)
+### 🌐 In the browser (recommended)
 
 Open **[https://cyberrep.github.io/ngcdode/](https://cyberrep.github.io/ngcdode/)**, choose your SD card and the page copies the menu, the firmware, and your games' covers, screenshots and texts, ready to use. It works in Chrome and Edge on a computer, and the page itself has the **Step by step** and the **Manual**.
 
-### With the generator (advanced)
+### 🛠️ With the generator (advanced)
 
 You download **a single file**, `generate_usb.py`. It does the rest with a step-by-step wizard:
 
@@ -422,7 +422,7 @@ You download **a single file**, `generate_usb.py`. It does the rest with a step-
 
 It **never deletes** your games.
 
-### Game formats
+### 💿 Game formats
 
 The SD Loader reads **one `.cue` per folder**, with the data track in `MODE1/2048` (`.iso`) or `MODE1/2352` (`.bin`) and audio in `.bin` or `.wav` (44100 Hz, 16 bit, stereo). **Redump-format games (`.cue` + `.bin`) run as they are.** The generator converts the rest.
 
