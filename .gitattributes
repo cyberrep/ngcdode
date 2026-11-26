@@ -1,0 +1,2 @@
+# esvazia o Source code automatico das Releases (git archive ignora tudo)
+* export-ignore

@@ -1,0 +1,914 @@
+# gamelist.txt - Neo Geo CD game texts for CyberRep Neo Geo CD SD Loader
+# Formato: [Titulo] (pode ter varias linhas [Apelido] seguidas), depois Chave=Valor.
+# Year / Developer / Publisher / Genre / Description  (aceita tambem Ano/Desenvolvedor/Publicadora/Genero/Descricao)
+
+[3 Count Bout]
+[Fire Suplex]
+Year=1995
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Juego de lucha libre con diez luchadores, cada uno con sus propios golpes especiales. El jugador se enfrenta a rivales cada vez más fuertes en diez rondas, agota la energía del rival y lo inmoviliza para la cuenta de tres. Incluye modo versus y combates por parejas.
+
+[ADK World]
+Year=1995
+Developer=ADK
+Publisher=SNK
+Genre=Multimedia
+Description=Recopilación de minijuegos y extras con personajes de los juegos de ADK, como World Heroes, Ninja Commando y Blue's Journey. Desde ADK Town el jugador accede a un juego de disparos, un concurso de preguntas, batallas de cartas, perfiles de personajes y arte de producción.
+
+[Aero Fighters 2]
+[Sonic Wings 2]
+Year=1994
+Developer=Video System
+Publisher=SNK
+Genre=Disparos
+Description=Juego de disparos con desplazamiento vertical para hasta dos jugadores, con ocho aviones distintos, cada uno con sus armas principales y secundarias. Los objetos aumentan la potencia de los disparos y las bombas liberan un ataque especial.
+
+[Aero Fighters 3]
+[Sonic Wings 3]
+Year=1995
+Developer=Video System
+Publisher=SNK
+Genre=Disparos
+Description=Tras un ataque sorpresa alienígena que destruye la base de los Aero Fighters, los pilotos vuelven a la lucha con aviones de la Segunda Guerra Mundial muy modificados. Disparos con desplazamiento vertical, rutas alternativas y varios pilotos.
+
+[Aggressors of Dark Kombat]
+[Tsuukai GANGAN Koushinkyoku]
+Year=1995
+Developer=ADK
+Publisher=SNK
+Genre=Lucha
+Description=Lucha callejera en la que los luchadores pueden moverse en profundidad por el escenario, como en un beat 'em up, y recoger armas repartidas por la arena. Tiene un medidor de provocación y golpes especiales que cambian el rumbo del combate.
+
+[Alpha Mission II]
+[ASO II - Last Guardian]
+Year=1994
+Developer=SNK
+Publisher=SNK
+Genre=Disparos
+Description=Continuación de Alpha Mission: el tirano Fulvar y su Alianza de las Siete Estrellas vuelven para atacar la Tierra. Disparos con desplazamiento vertical en el que el jugador compra armaduras y armas entre fases y alterna ataques aéreos y terrestres.
+
+[Andro Dunos]
+Year=2013
+Developer=Visco
+Publisher=Neo Conception International
+Genre=Disparos
+Description=Juego de disparos con desplazamiento horizontal lanzado por Visco en 1992 en recreativas. La nave alterna entre cuatro tipos de arma, que se refuerzan con los objetos. La versión en CD no salió hasta 2013, de la mano de Neo Conception International.
+
+[Art of Fighting]
+[Ryuuko no Ken]
+Year=1994
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Yuri Sakazaki ha sido secuestrada, y su hermano Ryo y su amigo Robert Garcia recorren South Town buscándola. Lucha con personajes grandes, zoom de cámara, ropa que se rompe y un medidor de espíritu que limita los golpes especiales.
+
+[Art of Fighting 2]
+[Ryuuko no Ken 2]
+Year=1994
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Continuación de Art of Fighting que revela que el misterioso Mr. Karate es Takuma Sakazaki, padre de Ryo y Yuri. Todos los personajes del primer juego son seleccionables, con nuevos luchadores, golpes desesperados y el villano Geese Howard.
+
+[Art of Fighting 3 - The Path of the Warrior]
+[Art of Fighting 3]
+[Art of Fighting - Ryuuko no Ken Gaiden]
+Year=1996
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Tercer juego de la serie, ambientado en Glass Hill Valley, México. Además de Ryo y Robert, trae un elenco casi totalmente nuevo, animaciones por captura de movimiento, combos aéreos y un sistema de lucha más técnico.
+
+[Bang Bang Busters]
+[Bang^2 Busters]
+[Bang2 Busters]
+[Bang Busters]
+[Ban Ban Busters]
+Year=2012
+Developer=Visco
+Publisher=Neo Conception International
+Genre=Plataformas
+Description=Plataformas al estilo de Bubble Bobble para dos jugadores: los héroes disparan a los enemigos hasta inflarlos y luego los lanzan contra los demás, ganando más puntos con cada acierto múltiple. Creado en los 90 y lanzado solo en 2010 y 2012.
+
+[Baseball Stars 2]
+Year=1994
+Developer=SNK
+Publisher=SNK
+Genre=Deportes
+Description=Continuación de Baseball Stars Professional, con béisbol rápido de estilo arcade y seis equipos ficticios, cada uno con sus puntos fuertes y débiles. Tiene un modo principiante que defiende solo y un modo en que el jugador controla toda la defensa.
+
+[Baseball Stars Professional]
+Year=1995
+Developer=SNK
+Publisher=SNK of America
+Genre=Deportes
+Description=Béisbol con estética de dibujos animados, continuación de Baseball Stars de NES. El jugador elige equipos como Celestial Planets y Shadow Demons y el estadio, en partidos rápidos para uno o dos jugadores.
+
+[Blue's Journey]
+[Raguy]
+[Raguy - Blue's Journey]
+Year=1994
+Developer=ADK
+Publisher=SNK of America
+Genre=Plataformas
+Description=El planeta Raguy fue contaminado por la invasión de la tribu Daruma, y la princesa Fa enfermó. Blue debe salvarla en un colorido juego de plataformas, aturdiendo a los enemigos con una hoja, lanzándolos y encogiéndose para entrar en pasajes secretos.
+
+[Breakers]
+Year=1997
+Developer=Visco
+Publisher=SNK
+Genre=Lucha
+Description=Juego de lucha de Visco con ocho luchadores de distintas partes del mundo, que compiten en un torneo organizado por un misterioso guerrero. Ritmo rápido, combos sencillos y golpes especiales al estilo de Street Fighter.
+
+[Burning Fight]
+Year=1991
+Developer=SNK
+Publisher=SNK
+Genre=Acción
+Description=Beat 'em up de SNK creado para competir con Double Dragon y Final Fight. Tres policías limpian las calles de Nueva York a golpes contra las bandas, usando armas y objetos del escenario, solos o en pareja.
+
+[Choutetsu Brikin'ger]
+[Ironclad]
+[Choutetsu Brikinger]
+Year=1996
+Developer=Saurus
+Publisher=SNK
+Genre=Disparos
+Description=Juego de disparos con desplazamiento horizontal exclusivo de Neo Geo CD, conocido en Occidente como Ironclad. La nave lleva un módulo que puede ir delante o detrás y atacar en ambos sentidos. En una consola americana aparece en inglés con el título Ironclad.
+
+[Crossed Swords]
+Year=1994
+Developer=ADK
+Publisher=SNK
+Genre=Acción
+Description=Acción en primera persona con elementos de RPG: el héroe ve a los enemigos de frente y alterna ataques y bloqueos con la espada. Entre combates gana oro para comprar armas, armaduras y magias.
+
+[Crossed Swords II]
+Year=1995
+Developer=ADK
+Publisher=SNK
+Genre=Acción
+Description=Continuación de Crossed Swords lanzada solo en Japón y exclusiva de Neo Geo CD. Mantiene los combates de espada en primera persona, con más personajes, magias y elementos de RPG como niveles de experiencia y una historia más larga.
+
+[Cyber-Lip]
+Year=1995
+Developer=SNK
+Publisher=SNK
+Genre=Acción
+Description=Juego de disparos con desplazamiento lateral y plataformas en el que los soldados Rick y Brook se enfrentan a robots y androides rebeldes en una base militar. Recuerda a Contra y fue uno de los primeros juegos de Neo Geo.
+
+[Double Dragon]
+[Daburu Doragon]
+Year=1995
+Developer=Technos Japan
+Publisher=SNK
+Genre=Lucha
+Description=Versión de lucha uno contra uno de la serie Double Dragon, lanzada en la época de la película e inspirada en ella. Diez luchadores, entre ellos Billy y Jimmy Lee, escenarios interactivos y un medidor para golpes especiales más fuertes.
+
+[Far East of Eden - Kabuki Klash]
+[Tengai Makyou Shinden - Far East of Eden]
+[Kabuki Klash]
+Year=1995
+Developer=Red Company
+Publisher=Hudson Soft
+Genre=Lucha
+Description=Lucha con los héroes de la serie de RPG Tengai Makyou (Far East of Eden), que compiten en un torneo en la tierra mágica de Jipang, un Japón de fantasía. Personajes de kabuki, ataques mágicos y mucho humor.
+
+[Fatal Fury - King of Fighters]
+[Fatal Fury]
+[Fatal Fury - The Battle of Fury]
+[Garou Densetsu - Shukumei no Tatakai]
+[Garou Densetsu]
+Year=1994
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Primer juego de Fatal Fury: Terry, Andy Bogard y Joe Higashi entran en el torneo King of Fighters para enfrentarse a Geese Howard. Aún no tiene los dos planos de la serie; en el modo de dos jugadores, ambos pueden unirse contra la máquina.
+
+[Fatal Fury 2]
+[Garou Densetsu 2 - Aratanaru Tatakai]
+[Garou Densetsu 2]
+Year=1994
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Segundo juego de la serie Fatal Fury, con ocho luchadores, entre ellos Terry y Andy Bogard, Joe Higashi y Mai Shiranui. Mantiene los combates en dos planos y termina con el jefe Wolfgang Krauser.
+
+[Fatal Fury 3 - Road to the Final Victory]
+[Fatal Fury 3]
+[Garou Densetsu 3 - Haruka-naru Tatakai]
+[Garou Densetsu 3]
+Year=1995
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Cuarto juego de la serie Fatal Fury, con un sistema de tres planos, nuevos luchadores como Blue Mary y Bob Wilson y ataques combinados. La historia gira en torno a los pergaminos de Jin y el regreso de Geese Howard.
+
+[Fatal Fury Special]
+[Garou Densetsu Special]
+Year=1994
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Versión revisada de Fatal Fury 2, con todos los jefes seleccionables, luchadores que regresan como Tung Fu Rue y Geese Howard y combos más rápidos. Quien gana sin perder se enfrenta al invitado secreto Ryo Sakazaki.
+
+[Football Frenzy]
+Year=1994
+Developer=SNK
+Publisher=SNK
+Genre=Deportes
+Description=Fútbol americano rápido y simplificado de estilo arcade, con desplazamiento horizontal y diez equipos ficticios. Es el tercer y último juego de este deporte hecho por SNK.
+
+[Galaxy Fight - Universal Warriors]
+[Galaxy Fight]
+Year=1995
+Developer=Sunsoft
+Publisher=Sunsoft
+Genre=Lucha
+Description=Lucha espacial en ocho planetas contra Felden Kryse, señor del inframundo. Las arenas no tienen esquinas, la cámara se acerca y se aleja según el combate y la carrera es clave para los combos.
+
+[Ghost Pilots]
+Year=1991
+Developer=SNK
+Publisher=SNK
+Genre=Disparos
+Description=Disparos con desplazamiento vertical al estilo de la serie 1942, en el que el jugador pilota un hidroavión. Las bombas crecen manteniendo el botón pulsado, y el juego es famoso por su dificultad, incluso en el nivel más fácil.
+
+[Golden Axe]
+[Golden Axe (Port)]
+Year=2025
+Developer=H0ffman
+Publisher=H0ffman
+Genre=Acción
+Description=Conversión homebrew del Golden Axe de recreativa de Sega a Neo Geo, hecha con ingeniería inversa para reproducir fielmente el original. Tres héroes se enfrentan a Death Adder con espadas, magias y monturas, solos o en pareja.
+
+[Karnov's Revenge]
+[Fighter's History Dynamite]
+Year=1994
+Developer=Data East
+Publisher=SNK
+Genre=Lucha
+Description=Continuación de Fighter's History con el villano Karnov como jefe y personaje jugable. Cada luchador tiene un punto débil en la ropa que, al recibir varios golpes, lo deja aturdido.
+
+[King of Fighters '94, The]
+[The King of Fighters '94]
+[King of Fighters '94]
+Year=1994
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Primer juego de la serie, que reúne a luchadores de Fatal Fury, Art of Fighting e Ikari Warriors en equipos de tres. Los combates son en secuencia, y el ganador sigue contra el siguiente rival.
+
+[King of Fighters '95, The]
+[The King of Fighters '95]
+[King of Fighters '95]
+Year=1995
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Continuación de KOF '94 que permite formar equipos con tres luchadores cualesquiera. Presenta a Iori Yagami, rival de Kyo Kusanagi, y trae de vuelta al villano Rugal.
+
+[King of Fighters '96 NEOGEO Collection, The]
+[The King of Fighters '96 NEOGEO Collection]
+[The King of Fighters '96 - NEOGEO Collection]
+[King of Fighters '96 NEOGEO Collection]
+Year=1997
+Developer=SNK
+Publisher=SNK
+Genre=Multimedia
+Description=Disco de colección exclusivo de Neo Geo CD para promocionar KOF '96, con la introducción del juego, una historia interactiva, perfiles de personajes con las voces de los actores, galería de arte, lista de golpes y selector de música.
+
+[King of Fighters '96, The]
+[The King of Fighters '96]
+[King of Fighters '96]
+Year=1996
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Tercer juego de la serie, con gráficos rehechos, volteretas en lugar de pasos laterales y nuevos equipos. Abre la saga de Orochi, con la jefa Goenitz.
+
+[King of Fighters '97, The]
+[The King of Fighters '97]
+[King of Fighters '97]
+Year=1997
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Conclusión de la saga de Orochi, con dos estilos de juego, Advanced y Extra, y el equipo New Faces. Recupera a casi todos los luchadores de los juegos anteriores.
+
+[King of Fighters '98, The]
+[The King of Fighters '98]
+[King of Fighters '98]
+[King of Fighters '98, The - Dream Match Never Ends]
+[The King of Fighters '98 - The Slugfest]
+Year=1998
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Edición especial sin historia, conocida como Dream Match, que reúne a casi todos los luchadores de la serie hasta entonces. Considerado uno de los mejores juegos de lucha de SNK.
+
+[King of Fighters '99, The]
+[The King of Fighters '99]
+[King of Fighters '99]
+[The King of Fighters '99 - Millennium Battle]
+Year=1999
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Inicio de la saga NESTS, con el nuevo protagonista K', equipos de cuatro luchadores y un cuarto miembro como ayudante. Añade los modos Counter y Armor.
+
+[King of the Monsters 2 - The Next Thing]
+[King of the Monsters 2]
+Year=1994
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Continuación de King of the Monsters en la que tres monstruos gigantes del primer juego se enfrentan a alienígenas monstruosos que amenazan la Tierra. Mezcla lucha y lucha libre, con ciudades destructibles y fases con desplazamiento.
+
+[Last Blade 2, The]
+[The Last Blade 2]
+[Last Blade 2]
+[Bakumatsu Roman Dainimaku - Gekka no Kenshi]
+Year=1998
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Continuación de The Last Blade con nuevos luchadores, el estilo EX, que mezcla Power y Speed, y el regreso del sistema para desviar ataques.
+
+[Last Blade, The]
+[The Last Blade]
+[Last Blade]
+[Bakumatsu Roman - Gekka no Kenshi]
+Year=1998
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Lucha con espadas en el Japón de finales del periodo Edo. Cada luchador puede elegir el estilo Power, más fuerte, o Speed, con combos encadenados. Tiene un sistema para desviar ataques y una banda sonora memorable.
+
+[Last Hope]
+Year=2007
+Developer=NG:DEV.TEAM
+Publisher=NG:DEV.TEAM
+Genre=Disparos
+Description=Juego de disparos con desplazamiento horizontal del equipo independiente alemán NG:DEV.TEAM, con escenarios en 3D prerrenderizados. La nave tiene un módulo que puede girar para disparar en varias direcciones. Uno de los primeros lanzamientos independientes para Neo Geo.
+
+[Last Resort]
+Year=1994
+Developer=SNK
+Publisher=SNK
+Genre=Disparos
+Description=Disparos con desplazamiento horizontal de SNK muy inspirado en R-Type. La nave lleva un módulo que puede fijarse en varias posiciones o lanzarse contra los enemigos, en una ambientación oscura y cyberpunk.
+
+[League Bowling]
+Year=1994
+Developer=SNK
+Publisher=SNK
+Genre=Deportes
+Description=Bolos para hasta cuatro jugadores, dos a la vez con pantalla dividida. Antes de lanzar, el jugador ajusta posición, efecto y fuerza. Además de la puntuación normal, tiene los modos Strike 90 y Flash.
+
+[LoopTris]
+Year=2021
+Developer=Blastar
+Publisher=Blastar
+Genre=Puzle
+Description=Homebrew de 2021 con un puzle de piezas que caen en un cilindro en 3D, una variante de Tetris en la que el pozo da la vuelta. Se puede jugar solo, en paralelo con un amigo o en competición.
+
+[LoopTris Plus]
+Year=2022
+Developer=Blastar
+Publisher=Blastar
+Genre=Puzle
+Description=Versión ampliada de LoopTris, con el mismo puzle de piezas en un cilindro en 3D. Añade nuevas opciones de juego a los modos individual, en paralelo y competición.
+
+[Magical Drop II]
+[Magical Drop 2]
+Year=1996
+Developer=Data East
+Publisher=Data East
+Genre=Puzle
+Description=Puzle rápido en el que el jugador recoge y lanza burbujas de colores para formar líneas verticales de tres o más del mismo color. Los personajes se inspiran en las cartas del tarot, con novedades como Justice y Black Pierrot.
+
+[Magician Lord]
+Year=1994
+Developer=ADK
+Publisher=SNK
+Genre=Plataformas
+Description=El mago Elta debe recuperar ocho libros mágicos para impedir la resurrección del dios maligno Az Atorse. Acción y plataformas con orbes que transforman al héroe en seis formas distintas, como dragón, ninja y samurái.
+
+[Mahjong Kyo Retsuden]
+[Mahjong Kyo Retsuden - Nishi Nihon Hen]
+[Mahjong Kyoretsuden]
+Year=1991
+Developer=SNK
+Publisher=SNK
+Genre=Tablero
+Description=Mahjong realista ambientado en los locales de juego del oeste de Japón. El jugador crea su propio personaje y viaja por la región enfrentándose a rivales. Lanzado solo en Japón.
+
+[Metal Slug]
+[Metal Slug - Super Vehicle-001]
+Year=1996
+Developer=Nazca
+Publisher=SNK
+Genre=Acción
+Description=Acción y disparos con desplazamiento lateral en el que Marco y Tarma combaten al ejército del general Morden, con animaciones detalladas, humor y el tanque Metal Slug. La versión en CD añade el modo Combat School, con récords de tiempo y distancia.
+
+[Metal Slug 2]
+[Metal Slug 2 - Super Vehicle-001/II]
+Year=1998
+Developer=SNK
+Publisher=SNK
+Genre=Acción
+Description=Continuación de Metal Slug, ahora con cuatro personajes, entre ellos Eri y Fio. Añade vehículos como el camello y el avión, transformaciones en momia y una invasión alienígena junto al ejército de Morden.
+
+[Money Puzzle Exchanger]
+[Money Idol Exchanger]
+Year=2026
+Developer=FACE
+Publisher=FACE
+Genre=Puzle
+Description=Puzle en el que el jugador junta monedas del mismo valor para cambiarlas por monedas mayores, con heroínas inspiradas en los superhéroes japoneses. Nunca salió para las consolas Neo Geo; es una conversión no oficial de recreativa a CD hecha por R3Demon.
+
+[Mutation Nation]
+Year=1992
+Developer=SNK
+Publisher=SNK
+Genre=Acción
+Description=Beat 'em up en el que dos héroes se enfrentan a los mutantes creados por experimentos genéticos que tomaron la ciudad. Los ataques especiales se refuerzan manteniendo el botón pulsado.
+
+[NAM-1975]
+Year=1991
+Developer=SNK
+Publisher=SNK
+Genre=Acción
+Description=Primer juego de Neo Geo: uno o dos soldados atraviesan Vietnam para detener a un científico y su arma láser. Disparos con mira en pantalla, al estilo de Cabal, contra soldados, tanques y helicópteros.
+
+[Neo Bomberman]
+[Neo Bomberman 2016]
+Year=2016
+Developer=Produce!
+Publisher=Hudson Soft
+Genre=Acción
+Description=Bomberman en Neo Geo: Bagura ha secuestrado a los participantes del torneo, y White Bomber y Black Bomber parten a rescatarlos. Tiene modo historia y batallas multijugador. La versión en CD es una conversión de 2016.
+
+[Neo Drift Out - New Technology]
+[Neo Drift Out]
+Year=1996
+Developer=Visco
+Publisher=Visco
+Genre=Carreras
+Description=Rally visto desde arriba en perspectiva isométrica, con coches reales, derrapes y tramos de tierra, nieve y asfalto. Cuarto juego de la serie Drift Out.
+
+[Neo Geo CD Special]
+Year=1995
+Developer=SNK
+Publisher=SNK
+Genre=Demo
+Description=Disco promocional creado para mostrar la consola, con demos jugables de seis títulos. Se presenta como un aula dirigida por Athena Asamiya en polígonos, con información de otros juegos de Neo Geo CD y un modo de demostración automática.
+
+[Neo Turf Masters]
+[Big Tournament Golf]
+Year=1996
+Developer=Nazca
+Publisher=SNK
+Genre=Deportes
+Description=Golf arcade en tres países, Estados Unidos, Alemania y Japón, con 18 hoyos cada uno. El jugador elige entre seis golfistas con distinta fuerza y precisión. Incluye modo versus y tres modos para un jugador.
+
+[Nightmare in the Dark]
+Year=2025
+Developer=AM Factory
+Publisher=Eleven / Gavaking
+Genre=Plataformas
+Description=Plataformas de 2000 en el que un sepulturero se enfrenta a muertos vivientes y monstruos que salen de las tumbas, convirtiendo a los enemigos en bolas de fuego y lanzándolos, al estilo de Snow Bros. Nunca salió en consolas; la versión en CD es una conversión de 2025.
+
+[Ninja Combat]
+Year=1994
+Developer=ADK
+Publisher=ADK
+Genre=Acción
+Description=Los ninjas del clan Kage Ichizoku hicieron aparecer una torre gigante en medio de la ciudad, y Joe y Hayabusa deben derrotarlos. Beat 'em up con estrellas ninja y golpes especiales; algunos jefes derrotados pasan a ser jugables.
+
+[Ninja Commando]
+Year=1992
+Developer=ADK
+Publisher=SNK
+Genre=Acción
+Description=Disparos con desplazamiento vertical al estilo de Commando, en el que tres ninjas viajan por distintas épocas de la historia, del Japón feudal a la prehistoria, tras un villano. Cada ninja tiene su propio disparo y golpes especiales.
+
+[Ninja Master's - Haou Ninpou Chou]
+[Ninja Master's Haou Ninpou-Chou]
+[Ninja Master's]
+Year=1998
+Developer=ADK
+Publisher=ADK
+Genre=Lucha
+Description=Lucha ambientada en el Japón feudal, con ninjas y samuráis. Durante el combate, el luchador puede guardar o desenvainar el arma, cambiando sus golpes, y hay un sistema de combos encadenados. Fue el último juego de lucha de ADK.
+
+[Over Top]
+[OverTop]
+Year=1996
+Developer=ADK
+Publisher=ADK
+Genre=Carreras
+Description=Carreras vistas desde arriba en pistas de asfalto y tierra por todo el mundo. El jugador elige entre varios vehículos, como deportivo, moto, camión y todoterreno, cada uno con un rendimiento distinto en cada terreno.
+
+[Pleasure Goal]
+[Futsal - 5 on 5 Mini Soccer]
+[Pleasure Goal - 5 on 5 Mini Soccer]
+Year=1996
+Developer=Saurus
+Publisher=SNK
+Genre=Deportes
+Description=Fútbol sala arcade cinco contra cinco con equipos de varios países, disputando la fase previa y la final de la Copa Saurus. Partidos rápidos y tiros especiales.
+
+[Power Spikes II]
+Year=1995
+Developer=Video System
+Publisher=SNK
+Genre=Deportes
+Description=Voleibol visto de lado con tres ligas: masculina, femenina y una liga de jugadores cíborg. Tiene golpes especiales, remates potentes y un modo historia.
+
+[Pulstar]
+Year=1995
+Developer=Aicom
+Publisher=SNK
+Genre=Disparos
+Description=Disparos con desplazamiento horizontal y gráficos prerrenderizados, muy parecido a R-Type. En 2256, la fuerza Pulstar es la última esperanza de la Tierra ante una invasión alienígena. La nave carga el disparo y usa un módulo de apoyo.
+
+[Puzzle Bobble]
+[Bust-A-Move]
+Year=1995
+Developer=Taito
+Publisher=SNK
+Genre=Puzle
+Description=Los dinosaurios Bub y Bob, de Bubble Bobble, lanzan burbujas de colores para formar grupos de tres o más del mismo color y explotarlas antes de que baje el techo. Modo para un jugador y versus para dos.
+
+[Puzzled]
+[Joy Joy Kid]
+Year=1990
+Developer=SNK
+Publisher=SNK
+Genre=Puzle
+Description=Puzle de piezas que caen, parecido a Tetris, en el que hay que completar líneas para liberar un globo atrapado en el fondo de la pantalla. Incluye versus para dos jugadores.
+
+[Quest of Jongmaster]
+[Janshin Densetsu]
+[Janshin Densetsu - Quest of Jongmaster]
+Year=1994
+Developer=Aicom
+Publisher=
+Genre=Tablero
+Description=Mahjong con temática de RPG, sucesor espiritual de Mahjong Quest de Taito. El jugador recorre un mundo de fantasía ganando partidas de mahjong contra sus rivales.
+
+[Quiz King of Fighters]
+Year=1995
+Developer=Saurus
+Publisher=SNK
+Genre=Preguntas
+Description=Yuri Sakazaki ha sido secuestrada otra vez, y los luchadores de King of Fighters deciden resolverlo con preguntas y respuestas. El jugador elige un personaje y viaja respondiendo preguntas de cultura general.
+
+[Ragnagard]
+[Shinouken]
+[Shinouken - Ragnagard]
+Year=1996
+Developer=System Vision
+Publisher=Saurus
+Genre=Lucha
+Description=Lucha con personajes prerrenderizados, al estilo de Killer Instinct, inspirados en dioses y criaturas de la mitología. Usa los cuatro botones del mando y tiene ataques de invocación.
+
+[Real Bout Fatal Fury]
+[Real Bout Garou Densetsu]
+Year=1995
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Nuevo capítulo de la serie Fatal Fury, con escenarios destructibles, salidas del ring y un sistema de combos encadenados. Recupera a muchos luchadores, como Terry y Andy Bogard, Joe Higashi, Mai Shiranui y Geese Howard.
+
+[Real Bout Fatal Fury 2 - The Newcomers]
+[RB2 - The Newcomers]
+[RB2 - The Newcomers - Real Bout Fatal Fury 2]
+[Real Bout Fatal Fury 2]
+[Real Bout Garou Densetsu 2 - The Newcomers]
+[Real Bout Garou Densetsu 2]
+Year=1998
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Séptimo juego de la serie Fatal Fury y el último de la línea Real Bout, con los novatos Li Xiangfei y Rick Strowd. Vuelve a los dos planos de lucha y tiene uno de los sistemas de combos más rápidos de la serie.
+
+[Real Bout Fatal Fury Special]
+[Real Bout Garou Densetsu Special]
+Year=1997
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Revisión de Real Bout Fatal Fury con gráficos nuevos, el regreso de los dos planos de lucha y personajes que vuelven, como Kim Kaphwan y Krauser. Elimina las salidas del ring y acelera los combos.
+
+[Riding Hero]
+Year=1995
+Developer=SNK
+Publisher=SNK
+Genre=Carreras
+Description=Carreras de motos con elementos de RPG: en el modo historia el piloto habla con personajes, gana dinero y mejora la moto entre carreras. También tiene modo arcade.
+
+[Robo Army]
+Year=1995
+Developer=SNK
+Publisher=SNK
+Genre=Acción
+Description=Beat 'em up en el que los cíborgs Maxima y Rocky se enfrentan a un ejército de robots en seis fases. Pueden transformarse en vehículos y usar ataques especiales.
+
+[RoboCop]
+Year=2026
+Developer=Teo Tormo
+Publisher=Data East
+Genre=Acción
+Description=Conversión homebrew para Neo Geo del RoboCop de recreativa de Data East. El policía cíborg recorre Detroit disparando a criminales y enfrentándose al robot ED-209.
+
+[Samurai Shodown]
+[Samurai Spirits]
+Year=1993
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Lucha con espadas en el Japón feudal, con doce guerreros como Haohmaru, Nakoruru y Ukyo. Los golpes con arma quitan mucha energía, la cámara se acerca y se aleja y un medidor de ira refuerza los ataques.
+
+[Samurai Shodown II]
+[Shin Samurai Spirits - Haoumaru Jigokuhen]
+[Shin Samurai Spirits]
+Year=1994
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Continuación de Samurai Shodown con quince guerreros, nuevos personajes como Genjuro y Cham Cham, volteretas, golpes para desarmar y la pantalla que se aleja en los combates.
+
+[Samurai Shodown III]
+[Samurai Spirits - Zankurou Musouken]
+[Samurai Shodown III - Blades of Blood]
+Year=1995
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Tercer juego de la serie, con un aspecto más oscuro y cada luchador en dos versiones, Slash y Bust, con golpes distintos. La historia transcurre entre los dos primeros juegos.
+
+[Samurai Shodown IV - Amakusa's Revenge]
+[Samurai Shodown IV]
+[Samurai Spirits - Amakusa Kourin]
+Year=1996
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Cuarto juego de la serie, que cierra la historia de Amakusa iniciada en el tercero. Mantiene las versiones Slash y Bust, recupera luchadores antiguos y añade combos y golpes de remate.
+
+[Savage Reign]
+[Fu'un Mokushiroku - Kakutou Sousei]
+[Fuuun Mokushiroku]
+Year=1995
+Developer=SNK
+Publisher=SNK
+Genre=Lucha
+Description=Lucha en la que cada personaje usa un arma distinta y puede saltar entre dos planos del escenario. Los luchadores compiten en el torneo del misterioso King Lion.
+
+[Sengoku]
+[Sengoku Denshou]
+Year=1991
+Developer=SNK
+Publisher=SNK
+Genre=Acción
+Description=Beat 'em up en el que dos héroes se enfrentan a los espíritus de guerreros del Japón feudal que invadieron la ciudad moderna. Los héroes pueden transformarse en samurái, ninja y otros guerreros y viajar al mundo de los espíritus.
+
+[Sengoku 2]
+[Sengoku Denshou 2]
+Year=1993
+Developer=SNK
+Publisher=SNK
+Genre=Acción
+Description=Continuación de Sengoku, en la que los héroes viajan por varias épocas de la historia de Japón. Tiene espadas, transformaciones y un repertorio de golpes más variado.
+
+[Shinobi]
+[Shinobi (Port)]
+[Shinobi - Neo Geo Port]
+Year=2025
+Developer=Hoffman
+Publisher=Hoffman
+Genre=Acción
+Description=Conversión homebrew del Shinobi de recreativa de Sega, hecha a partir del código del juego original para mantener la jugabilidad idéntica. El ninja Joe Musashi rescata rehenes con estrellas, espada y magias ninja.
+
+[Shinsetsu Samurai Spirits - Bushidou Retsuden]
+[Samurai Shodown RPG]
+[Samurai Shodown - Tales of the Bushido]
+[Shinsetsu Samurai Spirits - Bushido Retsuden]
+Year=1997
+Developer=SNK
+Publisher=SNK
+Genre=RPG
+Description=RPG exclusivo de Neo Geo CD que vuelve a contar en detalle la historia de los dos primeros Samurai Shodown. El jugador elige entre varios luchadores de la serie y libra batallas por turnos con golpes especiales. Lanzado solo en Japón.
+
+[Soccer Brawl]
+Year=1995
+Developer=SNK
+Publisher=SNK
+Genre=Deportes
+Description=Fútbol futurista con jugadores biónicos y cíborgs, en campos cerrados por paredes donde rebota el balón. Partidos rápidos con tiros especiales y mucho contacto físico.
+
+[Spin Master]
+[Spinmaster]
+[Miracle Adventure]
+Year=2024
+Developer=Data East
+Publisher=Data East
+Genre=Acción
+Description=Acción y plataformas de Data East al estilo de Joe & Mac, en el que dos aventureros buscan un tesoro con yoyós y armas variadas. Nunca salió en CD; es una conversión de la recreativa de 2024.
+
+[Stakes Winner]
+[Stakes Winner - GI Kanzen Seiha e no Michi]
+Year=1996
+Developer=Saurus
+Publisher=SNK
+Genre=Carreras
+Description=Carreras de caballos simplificadas de estilo arcade, para uno o dos jinetes. El jugador entrena y corre con su caballo para ganar los grandes premios.
+
+[Street Slam]
+[Dunk Dream]
+[Street Hoop]
+Year=1995
+Developer=Data East
+Publisher=SNK
+Genre=Deportes
+Description=Baloncesto callejero tres contra tres con selecciones de diez países, mates especiales y música rap. Cuando el medidor se llena, el jugador puede hacer un Super Mate.
+
+[Super Baseball 2020]
+[2020 Super Baseball]
+Year=1995
+Developer=Pallas
+Publisher=SNK
+Genre=Deportes
+Description=Béisbol futurista en el año 2020, con jugadores robóticos y humanos con armadura. El jugador gana dinero con las jugadas y compra mejoras para el equipo durante el partido.
+
+[Super Sidekicks]
+[Tokuten Ou]
+Year=1994
+Developer=SNK
+Publisher=SNK
+Genre=Deportes
+Description=Fútbol de estilo arcade con selecciones de varios países y partidos rápidos. Tiene tiros especiales y escenas en primer plano en las ocasiones de gol.
+
+[Super Sidekicks 2 - The World Championship]
+[Super Sidekicks 2]
+[Tokuten Ou 2 - Real Fight Football]
+[Tokuten Ou 2]
+Year=1994
+Developer=SNK
+Publisher=SNK
+Genre=Deportes
+Description=Continuación de Super Sidekicks con 48 selecciones divididas en seis grupos. Fútbol arcade con regates, entradas y escenas especiales de gol.
+
+[Super Sidekicks 3 - The Next Glory]
+[Super Sidekicks 3]
+[Tokuten Ou 3 - Eikou e no Chousen]
+[Tokuten Ou 3]
+Year=1995
+Developer=SNK
+Publisher=SNK
+Genre=Deportes
+Description=Tercer juego de la serie, con 64 selecciones divididas en ocho regiones y jugadores estrella en cada equipo. Fútbol arcade rápido con tiros especiales.
+
+[Super Spy, The]
+[The Super Spy]
+[Super Spy]
+Year=1991
+Developer=SNK
+Publisher=SNK
+Genre=Acción
+Description=Acción en primera persona en la que un agente secreto se enfrenta a terroristas en un edificio con puñetazos, patadas, cuchillos y armas de fuego. Tiene elementos de RPG, como puntos de experiencia.
+
+[Syougi no Tatsujin - Master of Syougi]
+[Shougi no Tatsujin - Master of Syougi]
+[Shougi no Tatsujin]
+Year=1995
+Developer=ADK
+Publisher=SNK
+Genre=Tablero
+Description=Shogi, el ajedrez japonés, en el que el jugador se enfrenta a rivales controlados por la máquina en un torneo o juega contra un amigo. Lanzado solo en Japón.
+
+[Taisen Idol-Mahjong Final Romance 2]
+[Taisen Idol Mahjong Final Romance 2]
+[Idol Mahjong Final Romance 2]
+Year=1995
+Developer=Video System
+Publisher=Video System
+Genre=Tablero
+Description=Mahjong contra chicas de estilo anime, segundo juego de la serie Final Romance. Con los puntos ganados, el jugador compra trampas para usar en las partidas. Lanzado solo en Japón.
+
+[Thrash Rally]
+[Rally Chase]
+Year=1991
+Developer=ADK
+Publisher=SNK
+Genre=Carreras
+Description=Rally visto desde arriba por tramos en varios países, sobre tierra, nieve y asfalto. El jugador elige entre varios coches y debe batir el tiempo en cada tramo. Tuvo una continuación no oficial en 1996, Over Top.
+
+[Time's Up]
+Year=2016
+Developer=Cel
+Publisher=NGF Dev
+Genre=Disparos
+Description=Homebrew de disparos pensado para duelos entre dos jugadores, que ganó también un modo historia con sistema de puntuación y tres niveles de dificultad.
+
+[Top Hunter - Roddy & Cathy]
+[Top Hunter]
+Year=1994
+Developer=SNK
+Publisher=SNK
+Genre=Plataformas
+Description=Acción y plataformas en el que los cazarrecompensas Roddy y Cathy recorren cuatro planetas. Pueden saltar entre el primer y el segundo plano del escenario, agarrar enemigos y pilotar robots.
+
+[Top Player's Golf]
+Year=1990
+Developer=SNK
+Publisher=SNK
+Genre=Deportes
+Description=Golf para hasta cuatro jugadores, con vista cenital del campo y un sistema de fuerza y efecto en cada golpe. Uno de los primeros juegos de Neo Geo.
+
+[Treasure of the Caribbean]
+[Caribe no Zaihou]
+Year=2011
+Developer=FACE
+Publisher=Neo Conception International
+Genre=Puzle
+Description=Puzle de temática pirata lanzado en 2011 para Neo Geo CD. Aprovecha poco del prototipo original de FACE, mostrado en 1994 y nunca lanzado.
+
+[Twinkle Star Sprites]
+Year=1997
+Developer=ADK
+Publisher=ADK
+Genre=Disparos
+Description=Disparos con desplazamiento vertical y pantalla dividida para dos jugadores: encadenar enemigos destruidos envía ataques al lado del rival. Mezcla disparos y duelos al estilo de los juegos de puzle, con personajes adorables.
+
+[Viewpoint]
+Year=1992
+Developer=Sammy
+Publisher=SNK
+Genre=Disparos
+Description=Disparos en perspectiva isométrica con gráficos prerrenderizados y escenarios de formas abstractas. La nave carga el disparo y usa tres tipos de bombas.
+
+[Voltage Fighter Gowcaizer]
+[Choujin Gakuen Gowcaizer]
+[Gowcaizer]
+Year=1995
+Developer=Technos Japan
+Publisher=SNK
+Genre=Lucha
+Description=Lucha con superhéroes de estilo anime que pueden aprender los golpes de los rivales derrotados. Fue el último juego de Technos Japan.
+
+[Windjammers]
+[Flying Power Disc]
+Year=1995
+Developer=Data East
+Publisher=SNK
+Genre=Deportes
+Description=Deporte de disco volador con seis jugadores de varios países: cada uno defiende su portería e intenta lanzar el disco a la del rival, con lanzamientos especiales y pistas de distintos tipos.
+
+[World Heroes]
+Year=1995
+Developer=ADK
+Publisher=ADK
+Genre=Lucha
+Description=Lucha con héroes de distintas épocas de la historia, como Hanzo, Fuuma, Rasputín y Juana de Arco, reunidos por una máquina del tiempo. Tiene combates normales y Death Matches con trampas en la arena.
+
+[World Heroes 2]
+Year=1995
+Developer=ADK
+Publisher=ADK
+Genre=Lucha
+Description=Continuación de World Heroes con nuevos héroes históricos, como el pirata Capitán Kidd y Shura, y contraataques.
+
+[World Heroes 2 Jet]
+Year=1994
+Developer=ADK
+Publisher=SNK
+Genre=Lucha
+Description=Tercer juego de la serie World Heroes, con nuevos luchadores, combates más rápidos y un modo torneo. Mantiene los héroes de distintas épocas de la historia.
+
+[World Heroes Perfect]
+Year=1995
+Developer=ADK
+Publisher=SNK
+Genre=Lucha
+Description=Último juego de la serie World Heroes, con todos los luchadores anteriores, golpes especiales renovados y el sistema Hero Gauge. Considerado la mejor versión de la serie.
+
+[Xeno Crisis]
+Year=2021
+Developer=Bitmap Bureau
+Publisher=Bitmap Bureau
+Genre=Disparos
+Description=Homebrew de disparos con vista cenital en el que dos soldados disparan en varias direcciones contra hordas alienígenas, en salas generadas al azar. Inspirado en Smash TV e Ikari Warriors.
+
+[Zintrick]
+[Oshidashi Zintrick]
+Year=1996
+Developer=ADK
+Publisher=SNK
+Genre=Puzle
+Description=Puzle en el que el jugador empuja bloques para juntar los del mismo color y limpiar la pantalla en pocos movimientos. Tiene modo de fases y modo versus.
