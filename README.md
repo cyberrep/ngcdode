@@ -505,4 +505,4 @@ The full history of the menu, the firmware and the tools is in **[CHANGELOG.md](
 
 **The menu, the page and the tools: free for personal use.** Modifying, decompiling, reverse engineering, selling (or shipping with a product that is sold) or using to train artificial intelligence is not allowed. The full text is in **[LICENSE.md](LICENSE.md)**.
 
-**The firmware (loader and MCU)** is derived from NeoCDSDLoader and follows the **GPL-3.0**, with the source code in the `NGCD_firmware_source.zip` file of each version (Releases). Parts made by other people and their licenses are in **[THIRD-PARTY.md](THIRD-PARTY.md)**.
+**The firmware (loader and MCU)** is derived from NeoCDSDLoader and follows the **GPL-3.0**, with the source code in the `NGCD_firmware_source_0012.zip` file of each version (Releases). Parts made by other people and their licenses are in **[THIRD-PARTY.md](THIRD-PARTY.md)**.

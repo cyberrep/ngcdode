@@ -114,6 +114,7 @@ The firmware comes in a `.WAD` with three parts: the **loader** (the console BIO
 - It is what allows media in `.media`, cover packs, options in `.config`, the save manager, the BIOS dump and updates from the menu. Compatible with everything MCU 00.11 did.
 
 **Loader NGCD 12**
+- 🎮 **"Quit game" in the in-game menu goes back to the NGCD menu** (the `BOOT.ISO`), no longer to the SD Loader folder list. In safe mode it still stays in the SD Loader menu.
 - The SD Loader screen shows the version as **NGCD 00.12**.
 - 🚀 **Loads the NGCD menu by itself at power-on**, from the `.boot` folder (or `_BOOT`, on older cards).
 - 🛟 **Safe mode**: holding A, B, C or D at power-on goes straight to the original SD Loader menu.

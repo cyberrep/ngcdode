@@ -114,6 +114,7 @@ O firmware vem num `.WAD` com três partes: o **loader** (o remendo da BIOS do c
 - É o que permite as mídias em `.media`, os pacotes de capas, as opções em `.config`, o gerenciador de saves, a extração da BIOS e a atualização pelo menu. Compatível com tudo o que o MCU 00.11 fazia.
 
 **Loader NGCD 12**
+- 🎮 **"Quit game" no menu do jogo volta ao menu NGCD** (o `BOOT.ISO`), e não mais à lista de pastas do SD Loader. No modo de segurança continua no menu do SD Loader.
 - A tela do SD Loader mostra a versão como **NGCD 00.12**.
 - 🚀 **Carrega o menu NGCD sozinho ao ligar**, da pasta `.boot` (ou `_BOOT`, nos cartões antigos).
 - 🛟 **Modo de segurança**: segurando A, B, C ou D ao ligar, vai direto ao menu original do SD Loader.

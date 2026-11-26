@@ -6,9 +6,9 @@ Copyright (c) 2026 Rodrigo Tadeu "CyberRep". All rights reserved.
 
 ## 1. What this license covers
 
-"The Software" means everything in this project written by the author: the menu (`BOOT.ISO` and the programs inside it), the web page, the generator (`generate_usb.py`), the conversion tools (`converter_tudo.py`), the texts and the documentation.
+"The Software" means everything in this project written by the author: the menu (`BOOT.ISO` and the programs inside it), the web page, the generator (`generate_usb.py`), the texts and the documentation.
 
-**The NGCD firmware (the loader and the MCU program inside the `.WAD`) is NOT covered by this license.** It is a modified version of the NeoCDSDLoader project and is distributed under the **GNU General Public License v3.0**, with its source code in the `NGCD_firmware_source.zip` file of each release. See [THIRD-PARTY.md](THIRD-PARTY.md).
+**The NGCD firmware (the loader and the MCU program inside the `.WAD`) is NOT covered by this license.** It is a modified version of the NeoCDSDLoader project and is distributed under the **GNU General Public License v3.0**, with its source code in the `NGCD_firmware_source_0012.zip` file of each release. See [THIRD-PARTY.md](THIRD-PARTY.md).
 
 Other parts written by other people are **not** covered by this license and keep their own terms. They are listed in [THIRD-PARTY.md](THIRD-PARTY.md).
 
@@ -65,7 +65,7 @@ For anything this license does not allow (commercial use, bundling, modification
 
 Tradução para conveniência. Em caso de dúvida, vale o texto em inglês.
 
-**1. O que esta licença cobre.** "O Software" é tudo o que o autor escreveu neste projeto: o menu (`BOOT.ISO` e os programas dentro dele), a página web, o gerador (`generate_usb.py`), as ferramentas de conversão (`converter_tudo.py`), os textos e a documentação. **O firmware NGCD (o loader e o programa do MCU dentro do `.WAD`) NÃO é coberto por esta licença**: é uma versão modificada do projeto NeoCDSDLoader e é distribuído sob a **GNU General Public License v3.0**, com o código-fonte no arquivo `NGCD_firmware_source.zip` de cada versão (Releases). As outras partes escritas por outras pessoas também **não** são cobertas por esta licença e mantêm os termos delas; estão listadas em [THIRD-PARTY.md](THIRD-PARTY.md).
+**1. O que esta licença cobre.** "O Software" é tudo o que o autor escreveu neste projeto: o menu (`BOOT.ISO` e os programas dentro dele), a página web, o gerador (`generate_usb.py`), os textos e a documentação. **O firmware NGCD (o loader e o programa do MCU dentro do `.WAD`) NÃO é coberto por esta licença**: é uma versão modificada do projeto NeoCDSDLoader e é distribuído sob a **GNU General Public License v3.0**, com o código-fonte no arquivo `NGCD_firmware_source_0012.zip` de cada versão (Releases). As outras partes escritas por outras pessoas também **não** são cobertas por esta licença e mantêm os termos delas; estão listadas em [THIRD-PARTY.md](THIRD-PARTY.md).
 
 **2. O que você pode fazer.** De graça: baixar e usar o Software nos seus próprios consoles e aparelhos, para uso pessoal e não comercial; fazer cópias para uso próprio e backup; compartilhar o Software **sem modificar**, completo e de graça, junto com esta licença, ou indicar o repositório oficial.
 
@@ -95,7 +95,7 @@ Se a lei do seu país lhe dá um direito irrenunciável, esta licença não o re
 
 Traducción de cortesía. En caso de duda, prevalece el texto en inglés.
 
-**1. Qué cubre esta licencia.** "El Software" es todo lo que el autor escribió en este proyecto: el menú (`BOOT.ISO` y los programas que contiene), la página web, el generador (`generate_usb.py`), las herramientas de conversión (`converter_tudo.py`), los textos y la documentación. **El firmware NGCD (el loader y el programa del MCU dentro del `.WAD`) NO está cubierto por esta licencia**: es una versión modificada del proyecto NeoCDSDLoader y se distribuye bajo la **GNU General Public License v3.0**, con el código fuente en el archivo `NGCD_firmware_source.zip` de cada versión (Releases). Las demás partes escritas por otras personas tampoco están cubiertas y conservan sus propios términos; están listadas en [THIRD-PARTY.md](THIRD-PARTY.md).
+**1. Qué cubre esta licencia.** "El Software" es todo lo que el autor escribió en este proyecto: el menú (`BOOT.ISO` y los programas que contiene), la página web, el generador (`generate_usb.py`), los textos y la documentación. **El firmware NGCD (el loader y el programa del MCU dentro del `.WAD`) NO está cubierto por esta licencia**: es una versión modificada del proyecto NeoCDSDLoader y se distribuye bajo la **GNU General Public License v3.0**, con el código fuente en el archivo `NGCD_firmware_source_0012.zip` de cada versión (Releases). Las demás partes escritas por otras personas tampoco están cubiertas y conservan sus propios términos; están listadas en [THIRD-PARTY.md](THIRD-PARTY.md).
 
 **2. Qué puedes hacer.** Gratis: descargar y usar el Software en tus propias consolas y dispositivos, para uso personal y no comercial; hacer copias para uso propio y de respaldo; compartir el Software **sin modificar**, completo y gratis, junto con esta licencia, o indicar el repositorio oficial.
 
