@@ -21,6 +21,7 @@ Primera versión pública. Reúne todo lo hecho en las versiones de desarrollo (
 - 💿 **Portada por defecto con las esquinas redondeadas**, como las portadas de verdad.
 - 🎞️ **Carrusel FX más fluido**: lee antes las portadas hacia el lado al que avanzas, 2 pasos adelante.
 - **Unidad de CD**: se quitó la opción "Iniciar desde el CD" de las Opciones; la caja **CD** del menú principal ya lo hace.
+- 🔧 **Ajustes de la prueba en consola**: barras de la SD y de la NVRAM más largas, con los números más espaciados y la unidad (G, M, K) un poco a la derecha; prueba de control con el pie estándar (botón **B**: mantén para salir); número de serie en una línea como los demás; pestaña **CONSOLA** en el gestor de almacenamiento; el protector de pantalla ya no pierde partes mientras el menú cargaba portadas o vídeo.
 - **Acerca de** muestra **Menú 1.00**, el firmware del loader, el MCU y el CPLD.
 
 Lo que tiene la 1.0, en resumen: 6 modos de vista (Lista, Portadas, Carrusel, Carrusel FX, Vitrina y Franja), vista previa en vídeo, portadas y pantallas en paquete, favoritos, recientes y estadísticas, filtro por género y país, ficha de cada juego en 3 idiomas, gestor de partidas, caja CD para la unidad de CD, extracción de la BIOS, actualización del firmware desde la consola, 10 músicas, 10 fondos y protector de pantalla.

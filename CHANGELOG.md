@@ -21,6 +21,7 @@ First public release. It brings together everything done in the development vers
 - 💿 **Default cover with rounded corners**, like real covers.
 - 🎞️ **Smoother Carousel FX**: covers are read ahead in the direction you are moving, 2 steps ahead.
 - **CD drive**: the "Boot from the CD drive" option left the Options; the **CD** box on the main menu already does it.
+- 🔧 **Fixes from the console test**: longer SD and NVRAM bars, with more spaced digits and the unit (G, M, K) a bit to the right; controller test with the standard footer (**B** button: hold to exit); serial number on one line like the other items; **CONSOLE** tab in the storage manager; screen saver no longer loses pieces while the menu was still loading covers or video.
 - **About** shows **Menu 1.00**, the loader firmware, the MCU and the CPLD.
 
 What 1.0 has, in short: 6 display modes (List, Covers, Carousel, Carousel FX, Showcase and Strip), video preview, packed covers and screenshots, favorites, recents and stats, genre and country filter, a sheet for each game in 3 languages, save manager, CD box for the CD drive, BIOS dump, firmware update from the console, 10 tracks, 10 backgrounds and a screen saver.

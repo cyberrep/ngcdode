@@ -21,6 +21,7 @@ Primeira versão pública. Reúne tudo o que foi feito nas versões de desenvolv
 - 💿 **Capa padrão com os cantos arredondados**, como as capas de verdade.
 - 🎞️ **Carrossel FX mais fluido**: lê antes as capas para o lado em que você está andando, 2 passos à frente.
 - **Drive de CD**: saiu a opção "Iniciar pelo drive de CD" das Opções; a caixa **CD** do menu principal já faz isso.
+- 🔧 **Ajustes do teste no console**: barras do SD e da NVRAM mais compridas, com o número mais espaçado e a unidade (G, M, K) um pouco à direita; teste de controle com o rodapé padrão (botão **B**: segure para sair); número de série na mesma linha dos outros itens; aba **CONSOLE** no gerenciador de armazenamento; protetor de tela sem pedaços sumindo enquanto o menu ainda carregava capas ou vídeo.
 - **Sobre** mostra **Menu 1.00**, o firmware do loader, o MCU e o CPLD.
 
 O que a 1.0 tem, em resumo: 6 modos de exibição (Lista, Capas, Carrossel, Carrossel FX, Vitrine e Faixa), prévia em vídeo, capas e telas em pacote, favoritos, recentes e estatísticas, filtro por gênero e país, ficha de cada jogo em 3 idiomas, gerenciador de saves, caixa CD para o drive de CD, extração da BIOS, atualização do firmware pelo console, 10 músicas, 10 fundos e protetor de tela.
