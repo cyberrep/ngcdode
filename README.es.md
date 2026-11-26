@@ -420,7 +420,7 @@ Descargas **un único archivo**, `generate_usb.py`. Hace todo lo demás con un a
 - graba las portadas y pantallas en **pak** o sueltas (`--individual`);
 - **copia el menú y el firmware** a la tarjeta.
 
-**Nunca borra** tus juegos. Para convertir una biblioteca entera de medios de una vez, usa `converter_tudo.py`.
+**Nunca borra** tus juegos.
 
 ### Formatos de juego
 
@@ -446,9 +446,9 @@ Metal Slug/
 
 ```
 boot/        el menú (BOOT.ISO y BOOT.CUE) — siempre la última versión
-wad/         el firmware NGCD (NSDLZZZZ.WAD) y el código fuente del loader y del MCU (GPL-3.0)
+wad/         el firmware NGCD (NSDLZZZZ.WAD)
 media/       portadas, pantallas y vídeos ya convertidos para la tarjeta, y la base de textos de los juegos
-tools/       el generador (generate_usb.py) y el conversor de medios (converter_tudo.py)
+tools/       el generador (generate_usb.py)
 docs/        la página web (GitHub Pages)
 github/      las pantallas de este README
 ```
@@ -505,4 +505,4 @@ El historial completo del menú, del firmware y de las herramientas está en **[
 
 **El menú, la página y las herramientas: uso personal y gratuito.** No se permite modificar, descompilar, hacer ingeniería inversa, vender (ni entregar junto con un producto vendido) ni usar para entrenar inteligencia artificial. El texto completo está en **[LICENSE.md](LICENSE.md)**.
 
-**El firmware (loader y MCU)** deriva de NeoCDSDLoader y sigue la **GPL-3.0**, con el código fuente en la carpeta `wad/`. Las partes hechas por otras personas y sus licencias están en **[THIRD-PARTY.md](THIRD-PARTY.md)**.
+**El firmware (loader y MCU)** deriva de NeoCDSDLoader y sigue la **GPL-3.0**, con el código fuente en el archivo `NGCD_firmware_source.zip` de cada versión (Releases). Las partes hechas por otras personas y sus licencias están en **[THIRD-PARTY.md](THIRD-PARTY.md)**.

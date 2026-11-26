@@ -6,7 +6,7 @@ The [NGCD ODE license](LICENSE.md) covers only what Rodrigo Tadeu "CyberRep" wro
 
 The NGCD firmware (the `.WAD`: the BIOS patch that runs on the console, the MCU program and the CPLD) is a modified version of the **[NeoCDSDLoader](https://github.com/furrtek/NeoCDSDLoader)** project: the SD Loader board, the MCU firmware, the CPLD and the original loader.
 
-NeoCDSDLoader is licensed under the **GNU General Public License v3.0** ([license](https://github.com/furrtek/NeoCDSDLoader/blob/main/LICENSE)). As that license requires, the NGCD firmware is distributed under the same GPL-3.0 terms, and the complete source code of our modifications (the loader patch and the MCU program NGCD 00.12) is included in the `wad/` folder of this repository. The CPLD is used unchanged.
+NeoCDSDLoader is licensed under the **GNU General Public License v3.0** ([license](https://github.com/furrtek/NeoCDSDLoader/blob/main/LICENSE)). As that license requires, the NGCD firmware is distributed under the same GPL-3.0 terms, and the complete source code of our modifications (the loader patch and the MCU program NGCD 00.12) is included in the `NGCD_firmware_source.zip` file attached to each release of this repository. The CPLD is used unchanged.
 
 What we changed:
 
@@ -34,7 +34,7 @@ What we changed:
 
 A [licença do NGCD ODE](LICENSE.md) cobre só o que Rodrigo Tadeu "CyberRep" escreveu. As partes abaixo foram feitas por outras pessoas e mantêm os termos delas.
 
-**Firmware NGCD — baseado no NeoCDSDLoader.** O firmware NGCD (o `.WAD`: o remendo da BIOS que roda no console, o programa do MCU e o CPLD) é uma versão modificada do projeto **[NeoCDSDLoader](https://github.com/furrtek/NeoCDSDLoader)**: a placa do SD Loader, o firmware do MCU, o CPLD e o loader original. O NeoCDSDLoader é licenciado sob a **GNU General Public License v3.0** ([licença](https://github.com/furrtek/NeoCDSDLoader/blob/main/LICENSE)). Como essa licença pede, o firmware NGCD é distribuído sob a mesma GPL-3.0, e o código-fonte completo das nossas alterações (o patch do loader e o programa do MCU NGCD 00.12) está na pasta `wad/` deste repositório. O CPLD é usado sem mudança.
+**Firmware NGCD — baseado no NeoCDSDLoader.** O firmware NGCD (o `.WAD`: o remendo da BIOS que roda no console, o programa do MCU e o CPLD) é uma versão modificada do projeto **[NeoCDSDLoader](https://github.com/furrtek/NeoCDSDLoader)**: a placa do SD Loader, o firmware do MCU, o CPLD e o loader original. O NeoCDSDLoader é licenciado sob a **GNU General Public License v3.0** ([licença](https://github.com/furrtek/NeoCDSDLoader/blob/main/LICENSE)). Como essa licença pede, o firmware NGCD é distribuído sob a mesma GPL-3.0, e o código-fonte completo das nossas alterações (o patch do loader e o programa do MCU NGCD 00.12) está no arquivo `NGCD_firmware_source.zip` de cada versão (Releases) deste repositório. O CPLD é usado sem mudança.
 
 O que mudamos: no **loader**, carregar o menu NGCD da pasta `.boot` ao ligar, o modo de segurança (segurar A, B, C ou D), a tela de aviso com a atualização pelo `.WAD` da raiz, a leitura silenciosa do cartão e o LED desligado; no **MCU (NGCD 00.12)**, os comandos de arquivo para o menu (abrir, ler com *seek*, gravar, listar, criar pasta, apagar, renomear) e o espaço livre do cartão SD.
 
